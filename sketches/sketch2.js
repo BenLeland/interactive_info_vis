@@ -95,6 +95,23 @@ registerSketch('sk2', function (p) {
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 480);
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 500);
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 520);
+
+    // runner on inner ring (seconds)
+    let cx = p.windowWidth / 2;
+    let cy = p.windowHeight / 2;
+    let innerRadius = 480 / 2;
+    let sec = p.second();
+    // At 0 seconds, angle = -PI/2 (top); at 30 seconds, angle = PI/2 (bottom)
+    let angle = -p.HALF_PI + p.TWO_PI * (sec / 60);
+
+    let verticalShift = -15;
+
+    // Offset the runner so the feet are on the ring and shift slightly up
+    let runnerX = cx + Math.cos(angle) * (innerRadius) ;
+    let runnerY = cy + Math.sin(angle) * (innerRadius) + verticalShift;
+
+    // Draw the runner always facing the same direction (no rotation)
+    p.drawRunner(runnerX, runnerY, 20, 'red');
   };
 
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
