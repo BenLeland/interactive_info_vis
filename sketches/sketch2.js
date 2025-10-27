@@ -4,6 +4,69 @@ registerSketch('sk2', function (p) {
     p.createCanvas(p.windowWidth, p.windowHeight);
   };
 
+  p.drawRunner = function(x, y, size = 20, shirtColor = 'red') {
+    p.push();
+    p.translate(x, y);
+
+    // Body (torso)
+    p.stroke(40);
+    p.strokeWeight(3);
+    p.noFill();
+    p.line(0, 0, 0, size * 0.4);
+
+    // Shirt (drawn as a slightly smaller T-shirt shape)
+    p.noStroke();
+    p.fill(shirtColor);
+    p.beginShape();
+    // Neck
+    p.vertex(-size * 0.09, 0);
+    p.vertex(size * 0.09, 0);
+    // Right shoulder
+    p.vertex(size * 0.16, size * 0.07);
+    // Right sleeve
+    p.vertex(size * 0.26, size * 0.16);
+    p.vertex(size * 0.19, size * 0.25);
+    // Right armpit
+    p.vertex(size * 0.11, size * 0.20);
+    // Right waist
+    p.vertex(size * 0.09, size * 0.38);
+    // Left waist
+    p.vertex(-size * 0.09, size * 0.38);
+    // Left armpit
+    p.vertex(-size * 0.11, size * 0.20);
+    // Left sleeve
+    p.vertex(-size * 0.19, size * 0.25);
+    p.vertex(-size * 0.26, size * 0.16);
+    // Left shoulder
+    p.vertex(-size * 0.16, size * 0.07);
+    p.endShape(p.CLOSE);
+
+    // Head
+    p.noStroke();
+    p.fill(255, 220, 180);
+    p.ellipse(0, -size * 0.18, size * 0.25, size * 0.25);
+
+    // Arms (poke out of sleeves)
+    p.stroke(40);
+    p.strokeWeight(2);
+    // Right arm
+    p.line(size * 0.22, size * 0.21, size * 0.28, size * 0.26);
+    // Left arm
+    p.line(-size * 0.22, size * 0.21, -size * 0.28, size * 0.26);
+
+    // Forearms (optional: add a bend for more realism)
+    // p.line(size * 0.34, size * 0.32, size * 0.38, size * 0.45);
+    // p.line(-size * 0.34, size * 0.32, -size * 0.38, size * 0.45);
+
+    // Legs (simple running pose, animated)
+    let t = p.frameCount * 0.15;
+    let legSwing = Math.sin(t) * size * 0.18;
+    p.line(0, size * 0.4, legSwing, size * 0.7);
+    p.line(0, size * 0.4, -legSwing, size * 0.7);
+
+    p.pop();
+  }
+
   p.draw = function () {
     // sky
     p.background('rgba(147, 235, 255, 1)');
