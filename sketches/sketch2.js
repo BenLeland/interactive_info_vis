@@ -101,6 +101,13 @@ registerSketch('sk2', function (p) {
     let cy = p.windowHeight / 2;
     let verticalShift = -15;
 
+    let outerRadius = 520 / 2;
+    let hr = p.hour();
+    let hrAngle = -p.HALF_PI + p.TWO_PI * ((hr % 12) / 12);
+    let runnerX = cx + Math.cos(hrAngle) * (outerRadius) ;
+    let runnerY = cy + Math.sin(hrAngle) * (outerRadius) + verticalShift;
+    p.drawRunner(runnerX, runnerY, 20, 'yellow');
+
     let middleRadius = 500 / 2; // Middle ring is the one with diameter 500
     let min = p.minute();
     // At 0 seconds, angle = -PI/2 (top); at 30 seconds, angle = PI/2 (bottom)
