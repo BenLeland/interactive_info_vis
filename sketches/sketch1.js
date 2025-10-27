@@ -1,35 +1,57 @@
-// Instance-mode sketch registered as 'sk1'
+// Instance-mode sketch for tab 1
 registerSketch('sk1', function (p) {
-  let horizon;
+//custom variables for y-coordinate of sun & horizon
+let shapeHeight;
 
-  p.setup = function () {
-    // size to the full window so canvas always matches the viewport
-    p.createCanvas(p.windowWidth, p.windowHeight);
-    p.noStroke();
-    horizon = p.height / 2;
-  };
+let width = 600;
+let height= 600;
+let horizon ;
 
-  p.draw = function () {
-    const shapeHeight = p.mouseY;
-    const currentWidth = p.mouseX;
-    horizon = p.height / 2;
+p.setup = function() {
+  p.createCanvas(p.windowWidth, p.windowHeight);
+  horizon = height/2;
+}
 
-    if (shapeHeight < horizon) p.background('lightblue');
-    else p.background('grey');
+p.draw = function() {
+  //shape follows y-coordinate of mouse
+  shapeHeight = p.mouseY;
+  currentWidth = p.mouseX;
 
-    p.fill('orange');
-    p.ellipse(p.width / 2, shapeHeight, 100, 100);
-    p.textSize(20);
-    p.fill('black');
-    p.text('Play with the sun!', currentWidth / 2, shapeHeight / 2);
+  //light blue background if the shape is above horizon
 
-    p.fill('sandybrown');
-    p.rect(0, horizon, p.width, p.height);
-  };
+  //with if-else statement
+  if (shapeHeight < horizon) {
+    p.background("lightblue"); // blue if above horizon
+    
+  } else {
+    p.background("grey"); // grey if below horizon
+  }
 
-  p.windowResized = function () {
-    p.resizeCanvas(p.windowWidth, p.windowHeight);
-    horizon = p.height / 2;
-  };
+  //sun
+  p.fill("white");
+  
+  p.rect(width/4, shapeHeight, width/2);
+  p.textSize(20);
+  p.fill("black");
+  p.text('Hi! My name is Ben Leland', currentWidth/2, shapeHeight/2);
+  
+
+
+  // draw line for horizon
+  p.stroke('lavender');
+  p.line(0,horizon,width,horizon);
+
+  //grass
+
+  p.fill("lavender");
+
+  p.rect(0, horizon, width, height);
+
+}
+
+p.windowResized = function() {
+  p.resizeCanvas(windowWidth, windowHeight);
+  horizon = height / 2; // recalc horizon after resize
+}
+
 });
-
