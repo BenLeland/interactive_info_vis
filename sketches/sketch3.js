@@ -19,6 +19,21 @@ registerSketch('sk3', function (p) {
     }
   };
 
+  function drawFoot(x, y, size, color) {
+    p.push();
+    p.fill(color);
+    p.translate(x, y);
+    p.rotate(p.PI);
+    // Ball of foot
+    p.arc(0, 0, size * .4, size, 0, p.PI);
+    // Heel
+    p.rotate(0);
+    p.translate(0, -(size * 0.3));
+    p.rotate(p.PI);
+    p.arc(0, -size * 0.22, size * .35, size * .4, 0 , p.PI);
+    p.pop();
+  }
+
   p.draw = function () {
     p.background('tan');
 
