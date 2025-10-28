@@ -107,10 +107,18 @@ registerSketch('sk2', function (p) {
     p.background('rgba(147, 235, 255, 1)');
 
     // sun
+    let dayProgress = p.constrain((p.hour() - 4) / (20 - 4), 0, 1);
+
+    // Map to horizontal position
+    let sunX = p.lerp(p.windowWidth, 75, dayProgress);
+    // Make the sun follow a slight arc using sine (higher at midday)
+    let sunY = 150 - Math.sin(dayProgress * p.PI) * 80;
+
+    // Draw Sun
     p.fill('yellow');
     p.stroke('orange');
     p.strokeWeight(5);
-    p.circle(p.windowWidth - 75, 75, 100);
+    p.circle(sunX, sunY, 100);
 
     // grass
     p.fill('green');
