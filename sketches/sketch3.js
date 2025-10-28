@@ -82,9 +82,16 @@ registerSketch('sk3', function (p) {
       p.pop();
     }
 
+    let minuteCount = p.minute();
     let secondCount = p.second();
 
+    minutePrints = getFootprints(minuteCount, 60, 'rgb(150, 100, 62)', 2);
     secondPrints = getFootprints(secondCount, 32, 'rgba(204, 136, 84, 1)', 3);
+
+    for (let i = 0; i < minutePrints.length; i++) {
+      let f = minutePrints[i];
+      drawFoot(f.x, f.y, f.size, f.color);
+    }
 
     for (let i = 0; i < secondPrints.length; i++) {
       let f = secondPrints[i];
