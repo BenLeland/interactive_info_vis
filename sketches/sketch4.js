@@ -3,12 +3,17 @@ registerSketch('sk4', function (p) {
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight);
   };
+
   p.draw = function () {
-    p.background(200, 240, 200);
-    p.fill(30, 120, 40);
-    p.textSize(32);
-    p.textAlign(p.CENTER, p.CENTER);
-    p.text('HWK #4. C', p.width / 2, p.height / 2);
+    p.background('skyblue');
+
+
+    // Watch
+    p.fill(30);
+    p.stroke('rgb(90, 90, 90)');
+    p.strokeWeight(5);
+    p.circle(p.windowWidth / 2, p.windowHeight / 2, 400);
   };
+  
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
 });
