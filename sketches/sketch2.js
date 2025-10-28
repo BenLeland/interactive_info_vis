@@ -54,10 +54,6 @@ registerSketch('sk2', function (p) {
     // Left arm
     p.line(-size * 0.22, size * 0.21, -size * 0.28, size * 0.26);
 
-    // Forearms (optional: add a bend for more realism)
-    // p.line(size * 0.34, size * 0.32, size * 0.38, size * 0.45);
-    // p.line(-size * 0.34, size * 0.32, -size * 0.38, size * 0.45);
-
     // Legs (simple running pose, animated)
     let t = p.frameCount * 0.15;
     let legSwing = Math.sin(t) * size * 0.18;
