@@ -5,14 +5,33 @@ registerSketch('sk4', function (p) {
   };
 
   p.draw = function () {
-    p.background('skyblue');
+    p.background('tan');
 
+    // Watch band
+    p.fill('rgb(90, 90, 90)');
+    p.stroke(0);
+    p.strokeWeight(1);
+    p.rect((p.windowWidth / 2) - 100, 0, 200, p.windowHeight);
+
+    // Watch band holes
+    p.fill('tan');
+    p.stroke(0);
+    p.strokeWeight(1);
+    for (let i = 0; i < 10; i++) {
+      p.circle(p.windowWidth / 2, i * 100 + 50, 20);
+    }
 
     // Watch
     p.fill(30);
     p.stroke('rgb(90, 90, 90)');
     p.strokeWeight(5);
-    p.circle(p.windowWidth / 2, p.windowHeight / 2, 400);
+    p.circle(p.windowWidth / 2, p.windowHeight / 2, 500);
+
+    p.fill(255);
+    p.noStroke();
+    p.textAlign(p.CENTER, p.CENTER);
+    p.textSize(50);
+    p.text(`${p.minute()}   Flights`, p.windowWidth / 2, p.windowHeight / 2);
   };
   
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
