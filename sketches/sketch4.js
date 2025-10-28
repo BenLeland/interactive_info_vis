@@ -27,12 +27,15 @@ registerSketch('sk4', function (p) {
     p.strokeWeight(5);
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 500);
 
-    p.fill(255);
     p.noStroke();
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(50);
+    p.fill('red');
     p.text(`${p.hour()}   Miles`, p.windowWidth / 2, p.windowHeight / 2 - 100);
+    p.fill('green');
     p.text(`${p.minute()}   Flights`, p.windowWidth / 2, p.windowHeight / 2);
+    p.fill('blue');
+    p.text(`${p.second()}   Steps`, p.windowWidth / 2, p.windowHeight / 2 + 100);
   };
   
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
