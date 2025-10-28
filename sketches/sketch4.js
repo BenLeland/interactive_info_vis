@@ -31,6 +31,7 @@ registerSketch('sk4', function (p) {
     p.noStroke();
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(50);
+    p.text(`${p.hour()}   Miles`, p.windowWidth / 2, p.windowHeight / 2 - 100);
     p.text(`${p.minute()}   Flights`, p.windowWidth / 2, p.windowHeight / 2);
   };
   
