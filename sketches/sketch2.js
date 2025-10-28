@@ -1,8 +1,47 @@
 // Instance-mode sketch for tab 2
 registerSketch('sk2', function (p) {
+  let grass = [];
+  
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight);
+
+    grassSquiggles = [];
+    for (let i = 0; i < 120; i++) {
+      let gx = p.random(p.width);
+      let gy = p.random(160, p.height - 10);
+      let len = p.random(40, 90);
+      let amp = p.random(3, 8);
+      let freq = p.random(0.12, 0.22);
+      grass.push({ gx, gy, len, amp, freq });
+    }
   };
+
+  function drawMileMarker(x, y, mile) {
+    p.push();
+
+    // Sign legs
+    p.stroke('white');
+    p.strokeWeight(1);
+    p.line(x + 5, y + 50, x + 5, y + 60);
+    p.line(x + 20, y + 50, x + 20, y + 60);
+
+    // Sign
+    p.fill('darkgreen');
+    p.stroke('white')
+    p.strokeWeight(1);
+    p.rect(x, y, 25, 50, 2);
+
+    // Sign Text
+    p.fill('white');
+    p.noStroke();
+    p.textAlign(p.CENTER, p.CENTER);
+    p.textSize(9);
+    p.text('MILE', x + 12.5, y + 10);
+    p.textSize(12);
+    p.text(`${mile}`, x + 12.5, y + 30);
+
+    p.pop();
+  }
 
   p.drawRunner = function(x, y, size = 20, shirtColor = 'red') {
     p.push();
@@ -73,10 +112,24 @@ registerSketch('sk2', function (p) {
     p.strokeWeight(5);
     p.circle(p.windowWidth - 75, 75, 100);
 
-    // ground
+    // grass
     p.fill('green');
     p.strokeWeight(0);
     p.rect(0, 150, p.windowWidth, p.windowHeight - 150);
+
+    for (let i = 0; i < grass.length; i++) {
+      let s = grass[i];
+      p.stroke(`darkgreen`);
+      p.strokeWeight(3);
+      p.noFill();
+      p.beginShape();
+      for (let t = 0; t < s.len; t += 4) {
+        let x = s.gx + t;
+        let y = s.gy + Math.sin(t * s.freq + s.gx * 0.02) * s.amp;
+        p.vertex(x, y);
+      }
+      p.endShape();
+    }
 
     // lake
     p.fill('blue');
@@ -86,7 +139,7 @@ registerSketch('sk2', function (p) {
 
     // track lines
     p.noFill();
-    p.stroke('black');
+    p.stroke('rgb(179, 152, 118)');
     p.strokeWeight(2);
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 480);
     p.circle(p.windowWidth / 2, p.windowHeight / 2, 500);
@@ -128,6 +181,12 @@ registerSketch('sk2', function (p) {
 
     // Draw the runner always facing the same direction (no rotation)
     p.drawRunner(runnerX, runnerY, 20, 'red');
+
+    // Mile Markers
+    drawMileMarker(p.windowWidth / 2 - 12.5, p.windowHeight / 2 - 330, '12');
+    drawMileMarker(p.windowWidth / 2 + 280, p.windowHeight / 2 - 25, '3');
+    drawMileMarker(p.windowWidth / 2 - 12.5, p.windowHeight / 2 + 280, '6');
+    drawMileMarker(p.windowWidth / 2 - 305, p.windowHeight / 2 - 25, '9');
   };
 
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
