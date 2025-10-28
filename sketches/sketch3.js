@@ -1,6 +1,31 @@
 // Instance-mode sketch for tab 3
 registerSketch('sk3', function (p) {
   let rocks = [];
+  let secondPrints = [];
+
+  function seededRandom(seed) {
+    // Mulberry32 PRNG
+    let t = seed += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  }
+
+  function getFootprints(count, size, color, seedOffset = 0) {
+    let arr = [];
+    for (let i = 0; i < count; i++) {
+      // Use a deterministic seed for each footprint
+      let sx = seededRandom(i + 1000 * seedOffset + 12345);
+      let sy = seededRandom(i + 1000 * seedOffset + 54321);
+      arr.push({
+        x: sx * p.width,
+        y: sy * p.height,
+        size,
+        color
+      });
+    }
+    return arr;
+  }
 
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight);
@@ -57,6 +82,14 @@ registerSketch('sk3', function (p) {
       p.pop();
     }
 
+    let secondCount = p.second();
+
+    secondPrints = getFootprints(secondCount, 32, 'rgba(204, 136, 84, 1)', 3);
+
+    for (let i = 0; i < secondPrints.length; i++) {
+      let f = secondPrints[i];
+      drawFoot(f.x, f.y, f.size, f.color);
+    }
   };
 
   p.windowResized = function () {
