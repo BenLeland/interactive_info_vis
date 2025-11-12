@@ -1,10 +1,11 @@
 // Example 2
-let x = 0;
-let y = 0;
+let data;
+let sortedData;
 
 registerSketch('sk5', function (p) {
   p.setup = function () {
     p.createCanvas(p.windowWidth, p.windowHeight);
+    preload();
   };
 
   setupBaseballDiamond = function() {
@@ -45,6 +46,27 @@ registerSketch('sk5', function (p) {
     p.rect(p.windowWidth / 2 - 115, p.windowHeight - 385, 10, 10);
 
     p.pop();
+  }
+
+  preload = function() {
+    data = p.loadTable('../data/mlb_teams_clean (1).csv', 'csv', 'header');
+    
+    let teamArr = data.getColumn('team_name');
+    let yearArr = data.getColumn('year');
+    let doublesArr = data.getColumn('doubles');
+    let triplesArr = data.getColumn('triples');
+    let homeRunsArr = data.getColumn('homeruns');
+
+    for (let i = 0; i < data.getRowCount(); i++) {
+      let singles = data.getColumn('hits')[i] - doublesArr[i] - triplesArr[i] - homeRunsArr[i];
+      let teamStats = [singles, doublesArr[i], triplesArr[i], homeRunsArr[i]];
+
+      if (!sortedData.has(teamArr[i])) {
+        sortedData.set(teamArr[i], sortedData.get(teamArr[i]).push(new Map([yearArr[i], teamStats])));
+      } else {
+        sortedData.set(teamArr[i], [new Map([yearArr[i], teamStats])]);
+      }
+    }
   }
 
   p.draw = function () {
