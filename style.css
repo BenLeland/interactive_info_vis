@@ -55,3 +55,7 @@ canvas {
   height: auto;
   display: block;
 }
+
+.rotate-left-90 {
+  transform: rotate(-90deg);
+}
