@@ -4,12 +4,12 @@ let sortedData;
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
-    data = p.loadTable('../mlb_data.csv', 'csv', 'header');
+    data = p.loadTable('./data/mlb_data.csv', 'csv', 'header');
     console.log('Data loaded in preload:', data);
     console.log('Row count:', data.getRowCount()); // Fixed: was getColumnCount()
     console.log('Column count:', data.getColumnCount());
     console.log('Columns:', data.columns);
-  }
+  };
   
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
