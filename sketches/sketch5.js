@@ -4,7 +4,7 @@ let sortedData;
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
-    data = p.loadTable('/data/mlb_data.csv', 'csv', 'header');
+    data = p.loadTable('/mlb_data.csv', 'csv', 'header');
   };
   
   p.setup = function() {
