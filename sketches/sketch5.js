@@ -4,28 +4,14 @@ let sortedData;
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
-    data = p.loadTable('./data/mlb_data.csv', 'csv', 'header');
-    console.log('Data loaded in preload:', data);
-    console.log('Row count:', data.getRowCount()); // Fixed: was getColumnCount()
-    console.log('Column count:', data.getColumnCount());
-    console.log('Columns:', data.columns);
+    data = p.loadTable('/data/mlb_data.csv', 'csv', 'header');
   };
   
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
     sortedData = new Map();
-
-    if (!data || data.getRowCount() === 0) {
-      console.error('Data not loaded! Check the file path or format.');
-      return;
-    }
-
-    console.log('Data loaded successfully!');
-    console.log('Row count:', data.getRowCount());
-    console.log('Column count:', data.getColumnCount());
-
-    // sortData();
-    // console.log(sortedData.get('Seattle Mariners'));
+    
+    console.log(data.getColumnCount());
   };
 
   setupBaseballDiamond = function() {
@@ -68,24 +54,24 @@ registerSketch('sk5', function (p) {
     p.pop();
   }
 
-  sortData = function() {  
-    let teamArr = data.getColumn('team_name');
-    let yearArr = data.getColumn('year');
-    let doublesArr = data.getColumn('doubles');
-    let triplesArr = data.getColumn('triples');
-    let homeRunsArr = data.getColumn('homeruns');
+  // sortData = function() {  
+  //   let teamArr = data.getColumn('team_name');
+  //   let yearArr = data.getColumn('year');
+  //   let doublesArr = data.getColumn('doubles');
+  //   let triplesArr = data.getColumn('triples');
+  //   let homeRunsArr = data.getColumn('homeruns');
 
-    for (let i = 0; i < data.getRowCount(); i++) {
-      let singles = data.getColumn('hits')[i] - doublesArr[i] - triplesArr[i] - homeRunsArr[i];
-      let teamStats = [singles, doublesArr[i], triplesArr[i], homeRunsArr[i]];
+  //   for (let i = 0; i < data.getRowCount(); i++) {
+  //     let singles = data.getColumn('hits')[i] - doublesArr[i] - triplesArr[i] - homeRunsArr[i];
+  //     let teamStats = [singles, doublesArr[i], triplesArr[i], homeRunsArr[i]];
 
-      if (!sortedData.has(teamArr[i])) {
-        sortedData.set(teamArr[i], sortedData.get(teamArr[i]).push(new Map([yearArr[i], teamStats])));
-      } else {
-        sortedData.set(teamArr[i], [new Map([yearArr[i], teamStats])]);
-      }
-    }
-  }
+  //     if (!sortedData.has(teamArr[i])) {
+  //       sortedData.set(teamArr[i], sortedData.get(teamArr[i]).push(new Map([yearArr[i], teamStats])));
+  //     } else {
+  //       sortedData.set(teamArr[i], [new Map([yearArr[i], teamStats])]);
+  //     }
+  //   }
+  // }
 
   p.draw = function () {
     p.background(255);
