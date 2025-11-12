@@ -3,9 +3,29 @@ let data;
 let sortedData;
 
 registerSketch('sk5', function (p) {
-  p.setup = function () {
+  p.preload = function() {
+    data = p.loadTable('../mlb_data.csv', 'csv', 'header');
+    console.log('Data loaded in preload:', data);
+    console.log('Row count:', data.getRowCount()); // Fixed: was getColumnCount()
+    console.log('Column count:', data.getColumnCount());
+    console.log('Columns:', data.columns);
+  }
+  
+  p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
-    preload();
+    sortedData = new Map();
+
+    if (!data || data.getRowCount() === 0) {
+      console.error('Data not loaded! Check the file path or format.');
+      return;
+    }
+
+    console.log('Data loaded successfully!');
+    console.log('Row count:', data.getRowCount());
+    console.log('Column count:', data.getColumnCount());
+
+    // sortData();
+    // console.log(sortedData.get('Seattle Mariners'));
   };
 
   setupBaseballDiamond = function() {
@@ -48,9 +68,7 @@ registerSketch('sk5', function (p) {
     p.pop();
   }
 
-  preload = function() {
-    data = p.loadTable('../data/mlb_teams_clean (1).csv', 'csv', 'header');
-    
+  sortData = function() {  
     let teamArr = data.getColumn('team_name');
     let yearArr = data.getColumn('year');
     let doublesArr = data.getColumn('doubles');

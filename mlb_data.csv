@@ -1,0 +1,2631 @@
+year,hits,doubles,triples,homeruns,team_name
+1876,723,96,24,9,Atlanta Braves
+1876,926,131,32,8,Chicago Cubs
+1876,555,51,12,4,Cincinnati Reds
+1876,711,96,22,2,Hartford Dark Blues
+1876,641,68,14,6,Louisville Grays
+1876,494,39,15,2,New York Mutuals
+1876,646,79,35,7,Oakland Athletics
+1876,642,73,27,2,St. Louis Cardinals
+1877,700,91,37,4,Atlanta Braves
+1877,633,79,30,0,Chicago Cubs
+1877,545,72,34,6,Cincinnati Reds
+1877,637,63,31,4,Hartford Dark Blues
+1877,659,75,36,9,Louisville Grays
+1877,531,51,36,1,St. Louis Cardinals
+1878,535,75,25,2,Atlanta Braves
+1878,677,91,20,3,Chicago Cubs
+1878,629,67,22,5,Cincinnati Reds
+1878,542,76,15,3,Indianapolis Blues
+1878,552,65,20,2,Milwaukee Grays
+1878,604,107,30,8,Providence Grays
+1879,733,105,54,2,Buffalo Bisons
+1879,883,138,51,20,Atlanta Braves
+1879,808,167,32,3,Chicago Cubs
+1879,666,116,29,4,Cleveland Spiders
+1879,813,127,53,8,Cincinnati Reds
+1879,1003,142,55,12,Providence Grays
+1879,592,61,19,5,Syracuse Stars
+1879,673,102,24,4,Troy Trojans
+1880,669,104,37,3,Buffalo Bisons
+1880,779,134,41,20,Atlanta Braves
+1880,876,164,39,4,Chicago Cubs
+1880,726,130,52,7,Cleveland Spiders
+1880,649,91,36,7,Cincinnati Reds
+1880,793,114,34,8,Providence Grays
+1880,755,114,37,5,Troy Trojans
+1880,699,129,52,8,Worcester Ruby Legs
+1881,797,157,50,12,Buffalo Bisons
+1881,733,121,27,5,Atlanta Braves
+1881,918,157,36,12,Chicago Cubs
+1881,796,120,39,7,Cleveland Spiders
+1881,780,131,53,17,Detroit Wolverines
+1881,780,144,37,11,Providence Grays
+1881,754,124,31,5,Troy Trojans
+1881,781,114,31,7,Worcester Ruby Legs
+1882,858,146,47,18,Buffalo Bisons
+1882,823,114,50,15,Atlanta Braves
+1882,892,209,54,15,Chicago Cubs
+1882,716,139,40,20,Cleveland Spiders
+1882,724,117,44,19,Detroit Wolverines
+1882,776,121,53,11,Providence Grays
+1882,747,116,59,12,Troy Trojans
+1882,689,109,57,16,Worcester Ruby Legs
+1883,1058,184,59,8,Buffalo Bisons
+1883,1010,209,86,34,Atlanta Braves
+1883,1000,277,61,13,Chicago Cubs
+1883,852,184,38,8,Cleveland Spiders
+1883,931,164,48,13,Detroit Wolverines
+1883,900,139,69,24,San Francisco Giants
+1883,859,181,48,3,Philadelphia Phillies
+1883,1001,189,59,21,Providence Grays
+1884,1099,163,69,39,Buffalo Bisons
+1884,1063,179,60,36,Atlanta Braves
+1884,1176,162,50,142,Chicago Cubs
+1884,934,147,49,16,Cleveland Spiders
+1884,825,114,47,31,Detroit Wolverines
+1884,1053,149,68,22,San Francisco Giants
+1884,934,149,39,14,Philadelphia Phillies
+1884,987,153,43,21,Providence Grays
+1885,980,149,50,23,Buffalo Bisons
+1885,915,144,53,22,Atlanta Braves
+1885,1079,184,75,54,Chicago Cubs
+1885,917,149,66,25,Detroit Wolverines
+1885,1085,150,82,16,San Francisco Giants
+1885,891,156,35,20,Philadelphia Phillies
+1885,820,114,30,6,Providence Grays
+1885,829,121,21,8,Indianapolis Hoosiers
+1886,1085,151,59,24,Atlanta Braves
+1886,1223,198,87,53,Chicago Cubs
+1886,1260,176,81,53,Detroit Wolverines
+1886,967,177,48,19,Kansas City Cowboys
+1886,1156,175,68,21,San Francisco Giants
+1886,976,145,66,26,Philadelphia Phillies
+1886,1001,183,46,30,Indianapolis Hoosiers
+1886,856,135,51,23,Washington Nationals 1886-1889
+1887,1255,185,94,53,Atlanta Braves
+1887,1177,178,98,80,Chicago Cubs
+1887,1404,213,126,55,Detroit Wolverines
+1887,1080,162,70,33,Indianapolis Hoosiers
+1887,1259,167,93,48,San Francisco Giants
+1887,1269,213,89,47,Philadelphia Phillies
+1887,1141,183,78,20,Pittsburgh Pirates
+1887,1039,149,63,47,Washington Nationals 1886-1889
+1888,1183,167,89,56,Atlanta Braves
+1888,1201,147,95,77,Chicago Cubs
+1888,1275,177,72,51,Detroit Wolverines
+1888,1100,180,33,34,Indianapolis Hoosiers
+1888,1149,130,76,55,San Francisco Giants
+1888,1021,151,46,16,Philadelphia Phillies
+1888,1070,150,49,14,Pittsburgh Pirates
+1888,944,98,49,30,Washington Nationals 1886-1889
+1889,1251,196,54,42,Atlanta Braves
+1889,1338,184,66,79,Chicago Cubs
+1889,1167,131,59,25,Cleveland Spiders
+1889,1356,228,35,62,Indianapolis Hoosiers
+1889,1319,208,77,52,San Francisco Giants
+1889,1248,215,52,44,Philadelphia Phillies
+1889,1202,209,65,42,Pittsburgh Pirates
+1889,1105,151,57,25,Washington Nationals 1886-1889
+1890,1166,184,75,43,Los Angeles Dodgers
+1890,1220,175,62,31,Atlanta Braves
+1890,1271,147,60,67,Chicago Cubs
+1890,1203,150,120,27,Cincinnati Reds
+1890,1073,132,59,21,Cleveland Spiders
+1890,1250,208,89,25,San Francisco Giants
+1890,1267,220,78,23,Philadelphia Phillies
+1890,1088,160,43,20,Pittsburgh Pirates
+1891,1233,200,69,23,Los Angeles Dodgers
+1891,1264,181,81,53,Atlanta Braves
+1891,1231,159,88,60,Chicago Cubs
+1891,1158,148,90,40,Cincinnati Reds
+1891,1295,183,88,22,Cleveland Spiders
+1891,1271,189,72,46,San Francisco Giants
+1891,1244,180,51,21,Philadelphia Phillies
+1891,1148,148,71,29,Pittsburgh Pirates
+1892,1343,160,111,30,Baltimore Orioles 1892-1899
+1892,1439,183,105,30,Los Angeles Dodgers
+1892,1325,203,51,34,Atlanta Braves
+1892,1189,149,92,26,Chicago Cubs
+1892,1291,155,75,44,Cincinnati Reds
+1892,1376,196,96,26,Cleveland Spiders
+1892,1209,133,61,18,Louisville Colonels
+1892,1329,173,85,39,San Francisco Giants
+1892,1420,225,95,50,Philadelphia Phillies
+1892,1288,143,108,38,Pittsburgh Pirates
+1892,1188,138,53,45,St. Louis Cardinals
+1892,1246,149,78,37,Washington Senators 1892-1899
+1893,1281,164,86,27,Baltimore Orioles 1892-1899
+1893,1200,173,83,45,Los Angeles Dodgers
+1893,1358,178,50,65,Atlanta Braves
+1893,1299,186,93,32,Chicago Cubs
+1893,1195,161,65,29,Cincinnati Reds
+1893,1425,222,98,32,Cleveland Spiders
+1893,1185,177,73,19,Louisville Colonels
+1893,1424,182,101,61,San Francisco Giants
+1893,1553,246,90,80,Philadelphia Phillies
+1893,1447,176,127,37,Pittsburgh Pirates
+1893,1288,152,98,10,St. Louis Cardinals
+1893,1258,180,83,23,Washington Senators 1892-1899
+1894,1647,271,150,33,Baltimore Orioles 1892-1899
+1894,1514,231,130,42,Los Angeles Dodgers
+1894,1658,272,94,103,Atlanta Braves
+1894,1574,268,87,65,Chicago Cubs
+1894,1407,228,71,61,Cincinnati Reds
+1894,1442,241,90,37,Cleveland Spiders
+1894,1216,173,89,42,Louisville Colonels
+1894,1469,199,96,45,San Francisco Giants
+1894,1780,258,137,40,Philadelphia Phillies
+1894,1465,223,125,48,Pittsburgh Pirates
+1894,1320,171,113,54,St. Louis Cardinals
+1894,1317,218,118,59,Washington Senators 1892-1899
+1895,1530,235,89,25,Baltimore Orioles 1892-1899
+1895,1346,191,78,41,Los Angeles Dodgers
+1895,1377,198,57,54,Atlanta Braves
+1895,1401,171,85,55,Chicago Cubs
+1895,1395,235,105,36,Cincinnati Reds
+1895,1433,194,69,29,Cleveland Spiders
+1895,1320,171,73,34,Louisville Colonels
+1895,1324,191,90,32,San Francisco Giants
+1895,1664,272,73,61,Philadelphia Phillies
+1895,1355,192,89,27,Pittsburgh Pirates
+1895,1356,155,88,39,St. Louis Cardinals
+1895,1326,209,101,55,Washington Senators 1892-1899
+1896,1548,207,100,23,Baltimore Orioles 1892-1899
+1896,1292,174,87,28,Los Angeles Dodgers
+1896,1421,175,75,36,Atlanta Braves
+1896,1311,182,97,34,Chicago Cubs
+1896,1283,204,73,20,Cincinnati Reds
+1896,1463,207,72,28,Cleveland Spiders
+1896,1197,142,80,37,Louisville Colonels
+1896,1383,159,87,40,San Francisco Giants
+1896,1382,234,84,49,Philadelphia Phillies
+1896,1371,169,94,27,Pittsburgh Pirates
+1896,1162,134,78,37,St. Louis Cardinals
+1896,1328,179,79,45,Washington Senators 1892-1899
+1897,1584,243,66,19,Baltimore Orioles 1892-1899
+1897,1343,202,72,24,Los Angeles Dodgers
+1897,1574,230,83,45,Atlanta Braves
+1897,1356,189,97,38,Chicago Cubs
+1897,1311,219,69,22,Cincinnati Reds
+1897,1374,192,88,16,Cleveland Spiders
+1897,1209,161,70,40,Louisville Colonels
+1897,1452,188,84,31,San Francisco Giants
+1897,1392,213,83,40,Philadelphia Phillies
+1897,1266,140,108,25,Pittsburgh Pirates
+1897,1285,151,67,32,St. Louis Cardinals
+1897,1376,194,77,36,Washington Senators 1892-1899
+1898,1584,154,77,12,Baltimore Orioles 1892-1899
+1898,1314,156,66,17,Los Angeles Dodgers
+1898,1531,190,55,53,Atlanta Braves
+1898,1431,175,84,18,Chicago Cubs
+1898,1448,207,101,19,Cincinnati Reds
+1898,1379,162,56,18,Cleveland Spiders
+1898,1389,150,71,32,Louisville Colonels
+1898,1422,190,86,34,San Francisco Giants
+1898,1431,238,81,33,Philadelphia Phillies
+1898,1313,140,88,14,Pittsburgh Pirates
+1898,1290,149,55,13,St. Louis Cardinals
+1898,1423,177,80,36,Washington Senators 1892-1899
+1899,1509,204,71,17,Baltimore Orioles 1892-1899
+1899,1436,178,97,27,Los Angeles Dodgers
+1899,1517,178,90,39,Atlanta Braves
+1899,1428,173,82,27,Chicago Cubs
+1899,1448,195,106,13,Cincinnati Reds
+1899,1333,142,50,12,Cleveland Spiders
+1899,1491,195,70,40,Louisville Colonels
+1899,1441,165,66,23,San Francisco Giants
+1899,1613,241,83,31,Philadelphia Phillies
+1899,1582,196,121,29,Pittsburgh Pirates
+1899,1514,172,88,47,St. Louis Cardinals
+1899,1429,162,87,47,Washington Senators 1892-1899
+1900,1423,199,81,26,Los Angeles Dodgers
+1900,1403,163,68,48,Atlanta Braves
+1900,1276,202,51,33,Chicago Cubs
+1900,1335,178,83,33,Cincinnati Reds
+1900,1317,177,61,23,San Francisco Giants
+1900,1439,187,82,29,Philadelphia Phillies
+1900,1312,185,100,26,Pittsburgh Pirates
+1900,1420,141,81,36,St. Louis Cardinals
+1901,1348,179,111,24,New York Yankees
+1901,1353,183,104,37,Boston Red Sox
+1901,1399,206,93,32,Los Angeles Dodgers
+1901,1180,135,36,28,Atlanta Braves
+1901,1303,173,89,32,Chicago White Sox
+1901,1250,153,61,18,Chicago Cubs
+1901,1232,173,70,38,Cincinnati Reds
+1901,1311,197,68,12,Cleveland Indians
+1901,1303,180,80,29,Detroit Tigers
+1901,1250,192,66,26,Baltimore Orioles
+1901,1225,167,46,19,San Francisco Giants
+1901,1409,239,87,35,Oakland Athletics
+1901,1275,194,58,24,Philadelphia Phillies
+1901,1407,182,92,29,Pittsburgh Pirates
+1901,1430,187,94,39,St. Louis Cardinals
+1901,1282,191,83,33,Minnesota Twins
+1902,1318,202,107,33,New York Yankees
+1902,1356,195,95,42,Boston Red Sox
+1902,1242,147,49,19,Los Angeles Dodgers
+1902,1178,142,39,14,Atlanta Braves
+1902,1248,170,50,14,Chicago White Sox
+1902,1224,133,40,6,Chicago Cubs
+1902,1383,188,77,18,Cincinnati Reds
+1902,1401,248,68,33,Cleveland Indians
+1902,1167,141,55,22,Detroit Tigers
+1902,1097,147,34,6,San Francisco Giants
+1902,1369,235,67,38,Oakland Athletics
+1902,1139,110,43,5,Philadelphia Phillies
+1902,1410,189,95,18,Pittsburgh Pirates
+1902,1254,208,61,29,Baltimore Orioles
+1902,1226,116,37,10,St. Louis Cardinals
+1902,1338,261,66,47,Minnesota Twins
+1903,1336,222,113,48,Boston Red Sox
+1903,1201,177,56,15,Los Angeles Dodgers
+1903,1145,176,47,25,Atlanta Braves
+1903,1152,176,49,14,Chicago White Sox
+1903,1300,191,62,9,Chicago Cubs
+1903,1399,228,92,28,Cincinnati Reds
+1903,1265,231,95,31,Cleveland Indians
+1903,1229,162,91,12,Detroit Tigers
+1903,1290,181,49,20,San Francisco Giants
+1903,1136,193,62,18,New York Yankees
+1903,1236,227,68,32,Oakland Athletics
+1903,1283,186,62,12,Philadelphia Phillies
+1903,1429,208,110,34,Pittsburgh Pirates
+1903,1133,166,68,12,Baltimore Orioles
+1903,1176,138,65,8,St. Louis Cardinals
+1903,1066,172,72,17,Minnesota Twins
+1904,1294,194,105,26,Boston Red Sox
+1904,1142,159,53,15,Los Angeles Dodgers
+1904,1217,153,50,24,Atlanta Braves
+1904,1217,193,68,14,Chicago White Sox
+1904,1294,157,62,22,Chicago Cubs
+1904,1332,189,92,21,Cincinnati Reds
+1904,1340,225,90,27,Cleveland Indians
+1904,1231,154,69,11,Detroit Tigers
+1904,1347,202,65,31,San Francisco Giants
+1904,1354,195,91,27,New York Yankees
+1904,1266,197,77,31,Oakland Athletics
+1904,1268,170,54,23,Philadelphia Phillies
+1904,1333,164,102,15,Pittsburgh Pirates
+1904,1266,153,53,10,Baltimore Orioles
+1904,1292,175,66,24,St. Louis Cardinals
+1904,1170,171,57,10,Minnesota Twins
+1905,1179,165,69,29,Boston Red Sox
+1905,1255,154,60,29,Los Angeles Dodgers
+1905,1217,148,52,17,Atlanta Braves
+1905,1213,200,55,11,Chicago White Sox
+1905,1249,157,82,12,Chicago Cubs
+1905,1401,160,101,27,Cincinnati Reds
+1905,1318,211,72,18,Cleveland Indians
+1905,1209,190,54,13,Detroit Tigers
+1905,1392,191,88,39,San Francisco Giants
+1905,1228,163,61,23,New York Yankees
+1905,1310,256,51,24,Oakland Athletics
+1905,1362,187,82,16,Philadelphia Phillies
+1905,1385,190,91,22,Pittsburgh Pirates
+1905,1205,153,49,16,Baltimore Orioles
+1905,1254,140,85,20,St. Louis Cardinals
+1905,1121,193,68,22,Minnesota Twins
+1906,1223,160,75,13,Boston Red Sox
+1906,1156,141,68,25,Los Angeles Dodgers
+1906,1115,136,43,16,Atlanta Braves
+1906,1133,152,52,7,Chicago White Sox
+1906,1316,181,71,20,Chicago Cubs
+1906,1198,140,71,16,Cincinnati Reds
+1906,1514,240,73,12,Cleveland Indians
+1906,1195,154,64,10,Detroit Tigers
+1906,1217,162,53,14,San Francisco Giants
+1906,1354,166,77,17,New York Yankees
+1906,1206,213,49,32,Oakland Athletics
+1906,1183,197,47,12,Philadelphia Phillies
+1906,1313,164,67,12,Pittsburgh Pirates
+1906,1244,145,60,20,Baltimore Orioles
+1906,1195,137,69,9,St. Louis Cardinals
+1906,1180,144,65,26,Minnesota Twins
+1907,1224,154,48,18,Boston Red Sox
+1907,1135,142,63,18,Los Angeles Dodgers
+1907,1222,142,61,22,Atlanta Braves
+1907,1205,149,33,5,Chicago White Sox
+1907,1224,162,48,13,Chicago Cubs
+1907,1226,126,90,15,Cincinnati Reds
+1907,1222,182,68,11,Cleveland Indians
+1907,1383,179,75,11,Detroit Tigers
+1907,1222,160,48,23,San Francisco Giants
+1907,1258,150,67,15,New York Yankees
+1907,1276,220,44,22,Oakland Athletics
+1907,1113,162,65,12,Philadelphia Phillies
+1907,1261,133,78,19,Pittsburgh Pirates
+1907,1324,154,63,10,Baltimore Orioles
+1907,1163,121,52,18,St. Louis Cardinals
+1907,1243,134,57,12,Minnesota Twins
+1908,1239,117,88,14,Boston Red Sox
+1908,1044,110,60,28,Los Angeles Dodgers
+1908,1228,137,43,17,Atlanta Braves
+1908,1127,145,41,3,Chicago White Sox
+1908,1267,196,56,19,Chicago Cubs
+1908,1108,129,77,14,Cincinnati Reds
+1908,1221,188,58,18,Cleveland Indians
+1908,1347,199,86,19,Detroit Tigers
+1908,1339,182,43,20,San Francisco Giants
+1908,1190,142,50,13,New York Yankees
+1908,1131,183,50,21,Oakland Athletics
+1908,1223,194,68,11,Philadelphia Phillies
+1908,1263,162,98,25,Pittsburgh Pirates
+1908,1261,173,52,20,Baltimore Orioles
+1908,1105,134,57,17,St. Louis Cardinals
+1908,1186,132,74,8,Minnesota Twins
+1909,1309,151,70,20,Boston Red Sox
+1909,1157,176,59,16,Los Angeles Dodgers
+1909,1121,125,43,14,Atlanta Braves
+1909,1109,145,56,4,Chicago White Sox
+1909,1227,203,60,20,Chicago Cubs
+1909,1273,159,72,22,Cincinnati Reds
+1909,1216,173,81,10,Cleveland Indians
+1909,1360,209,58,19,Detroit Tigers
+1909,1327,173,68,26,San Francisco Giants
+1909,1234,143,61,16,New York Yankees
+1909,1257,186,88,21,Oakland Athletics
+1909,1228,185,53,12,Philadelphia Phillies
+1909,1332,218,92,25,Pittsburgh Pirates
+1909,1151,116,45,10,Baltimore Orioles
+1909,1242,148,56,15,St. Louis Cardinals
+1909,1113,149,41,9,Minnesota Twins
+1910,1350,175,87,43,Boston Red Sox
+1910,1174,166,73,25,Los Angeles Dodgers
+1910,1260,173,49,31,Atlanta Braves
+1910,1058,115,58,7,Chicago White Sox
+1910,1333,219,84,34,Chicago Cubs
+1910,1326,150,79,23,Cincinnati Reds
+1910,1316,188,64,9,Cleveland Indians
+1910,1317,190,72,28,Detroit Tigers
+1910,1391,204,83,31,San Francisco Giants
+1910,1254,164,75,20,New York Yankees
+1910,1373,191,105,19,Oakland Athletics
+1910,1319,223,71,22,Philadelphia Phillies
+1910,1364,214,83,33,Pittsburgh Pirates
+1910,1105,131,60,12,Baltimore Orioles
+1910,1217,167,70,15,St. Louis Cardinals
+1910,1175,145,47,9,Minnesota Twins
+1911,1379,203,66,35,Boston Red Sox
+1911,1198,151,71,28,Los Angeles Dodgers
+1911,1417,249,54,37,Atlanta Braves
+1911,1401,179,92,20,Chicago White Sox
+1911,1335,218,101,54,Chicago Cubs
+1911,1379,180,105,21,Cincinnati Reds
+1911,1501,238,81,20,Cleveland Indians
+1911,1544,230,96,30,Detroit Tigers
+1911,1399,225,103,41,San Francisco Giants
+1911,1374,190,96,25,New York Yankees
+1911,1540,237,93,35,Oakland Athletics
+1911,1307,214,56,60,Philadelphia Phillies
+1911,1345,206,106,49,Pittsburgh Pirates
+1911,1192,187,63,17,Baltimore Orioles
+1911,1295,199,86,26,St. Louis Cardinals
+1911,1308,159,54,16,Minnesota Twins
+1912,1404,269,84,29,Boston Red Sox
+1912,1377,220,73,32,Los Angeles Dodgers
+1912,1465,227,68,35,Atlanta Braves
+1912,1321,174,80,17,Chicago White Sox
+1912,1398,245,90,43,Chicago Cubs
+1912,1310,183,89,21,Cincinnati Reds
+1912,1403,219,77,12,Cleveland Indians
+1912,1376,189,86,19,Detroit Tigers
+1912,1451,231,89,47,San Francisco Giants
+1912,1320,168,79,18,New York Yankees
+1912,1442,204,108,22,Oakland Athletics
+1912,1354,244,68,43,Philadelphia Phillies
+1912,1493,222,129,39,Pittsburgh Pirates
+1912,1262,166,71,19,Baltimore Orioles
+1912,1366,190,77,27,St. Louis Cardinals
+1912,1298,202,86,20,Minnesota Twins
+1913,1334,220,101,17,Boston Red Sox
+1913,1394,193,86,39,Los Angeles Dodgers
+1913,1318,191,60,32,Atlanta Braves
+1913,1139,157,66,24,Chicago White Sox
+1913,1289,195,96,59,Chicago Cubs
+1913,1339,170,96,27,Cincinnati Reds
+1913,1349,206,74,16,Cleveland Indians
+1913,1344,180,101,24,Detroit Tigers
+1913,1427,226,71,30,San Francisco Giants
+1913,1157,155,45,8,New York Yankees
+1913,1412,223,80,33,Oakland Athletics
+1913,1433,257,78,73,Philadelphia Phillies
+1913,1383,210,86,35,Pittsburgh Pirates
+1913,1193,179,73,18,Baltimore Orioles
+1913,1229,152,72,15,St. Louis Cardinals
+1913,1281,156,81,19,Minnesota Twins
+1914,1278,226,85,18,Boston Red Sox
+1914,1386,172,90,31,Los Angeles Dodgers
+1914,1307,213,60,35,Atlanta Braves
+1914,1205,161,71,19,Chicago White Sox
+1914,1229,199,74,42,Chicago Cubs
+1914,1178,142,64,16,Cincinnati Reds
+1914,1262,178,70,10,Cleveland Indians
+1914,1318,195,84,25,Detroit Tigers
+1914,1363,222,59,30,San Francisco Giants
+1914,1144,149,52,12,New York Yankees
+1914,1392,165,80,29,Oakland Athletics
+1914,1345,211,52,62,Philadelphia Phillies
+1914,1197,148,79,18,Pittsburgh Pirates
+1914,1241,185,75,17,Baltimore Orioles
+1914,1249,203,65,33,St. Louis Cardinals
+1914,1245,176,81,18,Minnesota Twins
+1915,1308,202,76,14,Boston Red Sox
+1915,1268,165,75,14,Los Angeles Dodgers
+1915,1219,231,57,17,Atlanta Braves
+1915,1269,163,102,25,Chicago White Sox
+1915,1246,212,66,53,Chicago Cubs
+1915,1323,194,84,15,Cincinnati Reds
+1915,1210,169,79,20,Cleveland Indians
+1915,1372,207,94,23,Detroit Tigers
+1915,1312,195,68,24,San Francisco Giants
+1915,1162,167,50,31,New York Yankees
+1915,1204,183,72,16,Oakland Athletics
+1915,1216,202,39,58,Philadelphia Phillies
+1915,1259,197,91,24,Pittsburgh Pirates
+1915,1255,166,65,19,Baltimore Orioles
+1915,1297,159,92,20,St. Louis Cardinals
+1915,1225,152,79,12,Minnesota Twins
+1916,1246,197,56,14,Boston Red Sox
+1916,1366,195,80,28,Los Angeles Dodgers
+1916,1181,166,73,22,Atlanta Braves
+1916,1277,194,100,17,Chicago White Sox
+1916,1237,194,56,46,Chicago Cubs
+1916,1336,187,88,14,Cincinnati Reds
+1916,1264,233,66,16,Cleveland Indians
+1916,1371,202,96,17,Detroit Tigers
+1916,1305,188,74,42,San Francisco Giants
+1916,1277,194,59,35,New York Yankees
+1916,1212,169,65,19,Oakland Athletics
+1916,1244,223,53,42,Philadelphia Phillies
+1916,1246,147,91,20,Pittsburgh Pirates
+1916,1262,181,50,14,Baltimore Orioles
+1916,1223,155,74,25,St. Louis Cardinals
+1916,1238,170,60,12,Minnesota Twins
+1917,1243,198,64,14,Boston Red Sox
+1917,1299,159,78,25,Los Angeles Dodgers
+1917,1280,169,75,22,Atlanta Braves
+1917,1281,152,81,18,Chicago White Sox
+1917,1229,194,67,17,Chicago Cubs
+1917,1385,196,100,26,Cincinnati Reds
+1917,1224,218,64,13,Cleveland Indians
+1917,1317,204,77,25,Detroit Tigers
+1917,1360,170,71,39,San Francisco Giants
+1917,1226,172,52,27,New York Yankees
+1917,1296,177,62,17,Oakland Athletics
+1917,1262,225,60,38,Philadelphia Phillies
+1917,1230,160,61,9,Pittsburgh Pirates
+1917,1250,183,63,15,Baltimore Orioles
+1917,1271,159,93,26,St. Louis Cardinals
+1917,1238,173,70,4,Minnesota Twins
+1918,990,159,54,15,Boston Red Sox
+1918,1052,121,62,10,Los Angeles Dodgers
+1918,1014,107,59,13,Atlanta Braves
+1918,1057,136,55,8,Chicago White Sox
+1918,1147,164,53,21,Chicago Cubs
+1918,1185,165,84,15,Cincinnati Reds
+1918,1084,176,67,9,Cleveland Indians
+1918,1063,141,56,13,Detroit Tigers
+1918,1081,150,53,13,San Francisco Giants
+1918,1085,160,45,20,New York Yankees
+1918,1039,124,44,22,Oakland Athletics
+1918,1022,158,28,25,Philadelphia Phillies
+1918,1016,107,72,15,Pittsburgh Pirates
+1918,1040,152,40,5,Baltimore Orioles
+1918,1066,147,64,27,St. Louis Cardinals
+1918,1144,156,49,4,Minnesota Twins
+1919,1188,181,49,33,Boston Red Sox
+1919,1272,167,66,25,Los Angeles Dodgers
+1919,1201,142,62,24,Atlanta Braves
+1919,1343,218,70,25,Chicago White Sox
+1919,1174,166,58,21,Chicago Cubs
+1919,1204,135,83,20,Cincinnati Reds
+1919,1268,254,72,24,Cleveland Indians
+1919,1319,222,84,23,Detroit Tigers
+1919,1254,204,64,40,San Francisco Giants
+1919,1275,193,49,45,New York Yankees
+1919,1156,175,71,35,Oakland Athletics
+1919,1191,208,50,42,Philadelphia Phillies
+1919,1132,130,82,17,Pittsburgh Pirates
+1919,1234,187,73,31,Baltimore Orioles
+1919,1175,163,52,18,St. Louis Cardinals
+1919,1238,177,63,24,Minnesota Twins
+1920,1397,216,71,22,Boston Red Sox
+1920,1493,205,99,28,Los Angeles Dodgers
+1920,1358,168,86,23,Atlanta Braves
+1920,1574,263,98,37,Chicago White Sox
+1920,1350,223,67,34,Chicago Cubs
+1920,1432,169,76,18,Cincinnati Reds
+1920,1574,300,95,35,Cleveland Indians
+1920,1408,228,72,30,Detroit Tigers
+1920,1427,210,76,46,San Francisco Giants
+1920,1448,268,71,115,New York Yankees
+1920,1324,220,49,44,Oakland Athletics
+1920,1385,229,54,64,Philadelphia Phillies
+1920,1342,162,90,16,Pittsburgh Pirates
+1920,1651,279,83,50,Baltimore Orioles
+1920,1589,238,96,32,St. Louis Cardinals
+1920,1526,233,81,36,Minnesota Twins
+1921,1440,248,69,17,Boston Red Sox
+1921,1476,209,85,59,Los Angeles Dodgers
+1921,1561,209,100,61,Atlanta Braves
+1921,1509,242,82,35,Chicago White Sox
+1921,1553,234,56,37,Chicago Cubs
+1921,1421,221,94,20,Cincinnati Reds
+1921,1656,355,90,42,Cleveland Indians
+1921,1724,268,100,58,Detroit Tigers
+1921,1575,237,93,75,San Francisco Giants
+1921,1576,285,87,134,New York Yankees
+1921,1497,256,64,82,Oakland Athletics
+1921,1512,238,50,88,Philadelphia Phillies
+1921,1533,231,104,37,Pittsburgh Pirates
+1921,1655,246,106,67,Baltimore Orioles
+1921,1635,260,88,83,St. Louis Cardinals
+1921,1468,240,96,42,Minnesota Twins
+1922,1392,250,55,45,Boston Red Sox
+1922,1569,235,76,56,Los Angeles Dodgers
+1922,1355,162,73,32,Atlanta Braves
+1922,1463,243,62,45,Chicago White Sox
+1922,1564,248,71,42,Chicago Cubs
+1922,1561,226,99,45,Cincinnati Reds
+1922,1544,320,73,32,Cleveland Indians
+1922,1641,250,87,54,Detroit Tigers
+1922,1661,253,90,80,San Francisco Giants
+1922,1504,220,75,95,New York Yankees
+1922,1409,229,63,111,Oakland Athletics
+1922,1537,268,55,116,Philadelphia Phillies
+1922,1698,239,110,52,Pittsburgh Pirates
+1922,1693,291,94,98,Baltimore Orioles
+1922,1634,280,88,107,St. Louis Cardinals
+1922,1395,229,76,45,Minnesota Twins
+1923,1354,253,54,34,Boston Red Sox
+1923,1559,214,81,62,Los Angeles Dodgers
+1923,1455,213,58,32,Atlanta Braves
+1923,1463,254,57,42,Chicago White Sox
+1923,1516,243,52,90,Chicago Cubs
+1923,1506,237,95,45,Cincinnati Reds
+1923,1594,301,75,59,Cleveland Indians
+1923,1579,270,69,41,Detroit Tigers
+1923,1610,248,76,85,San Francisco Giants
+1923,1554,231,79,105,New York Yankees
+1923,1407,229,64,53,Oakland Athletics
+1923,1528,259,39,112,Philadelphia Phillies
+1923,1592,224,111,49,Pittsburgh Pirates
+1923,1489,248,62,82,Baltimore Orioles
+1923,1582,274,76,63,St. Louis Cardinals
+1923,1436,224,93,26,Minnesota Twins
+1924,1481,302,63,30,Boston Red Sox
+1924,1534,227,54,72,Los Angeles Dodgers
+1924,1355,194,52,25,Atlanta Braves
+1924,1512,254,58,41,Chicago White Sox
+1924,1419,207,59,66,Chicago Cubs
+1924,1539,236,111,36,Cincinnati Reds
+1924,1580,306,59,41,Cleveland Indians
+1924,1604,315,76,35,Detroit Tigers
+1924,1634,269,81,95,San Francisco Giants
+1924,1516,248,86,98,New York Yankees
+1924,1459,251,59,63,Oakland Athletics
+1924,1459,256,56,94,Philadelphia Phillies
+1924,1517,222,122,44,Pittsburgh Pirates
+1924,1543,266,62,67,Baltimore Orioles
+1924,1552,270,87,67,St. Louis Cardinals
+1924,1558,255,88,22,Minnesota Twins
+1925,1375,257,64,41,Boston Red Sox
+1925,1617,250,80,64,Los Angeles Dodgers
+1925,1567,260,70,41,Atlanta Braves
+1925,1482,299,59,38,Chicago White Sox
+1925,1473,254,70,86,Chicago Cubs
+1925,1490,221,90,44,Cincinnati Reds
+1925,1613,285,58,52,Cleveland Indians
+1925,1621,277,84,50,Detroit Tigers
+1925,1507,239,61,114,San Francisco Giants
+1925,1471,247,74,110,New York Yankees
+1925,1659,298,79,76,Oakland Athletics
+1925,1598,288,58,100,Philadelphia Phillies
+1925,1651,316,105,78,Pittsburgh Pirates
+1925,1620,304,68,110,Baltimore Orioles
+1925,1592,292,80,109,St. Louis Cardinals
+1925,1577,251,71,56,Minnesota Twins
+1926,1325,249,54,32,Boston Red Sox
+1926,1348,246,62,40,Los Angeles Dodgers
+1926,1444,209,62,16,Atlanta Braves
+1926,1508,314,60,32,Chicago White Sox
+1926,1453,291,49,66,Chicago Cubs
+1926,1541,242,120,35,Cincinnati Reds
+1926,1529,333,49,27,Cleveland Indians
+1926,1547,281,90,36,Detroit Tigers
+1926,1435,214,58,73,San Francisco Giants
+1926,1508,262,75,121,New York Yankees
+1926,1359,259,65,61,Oakland Athletics
+1926,1479,244,50,75,Philadelphia Phillies
+1926,1514,243,106,44,Pittsburgh Pirates
+1926,1449,253,78,72,Baltimore Orioles
+1926,1541,259,82,90,St. Louis Cardinals
+1926,1525,244,97,43,Minnesota Twins
+1927,1348,271,78,28,Boston Red Sox
+1927,1314,195,74,39,Los Angeles Dodgers
+1927,1498,216,61,37,Atlanta Braves
+1927,1433,285,61,36,Chicago White Sox
+1927,1505,266,63,74,Chicago Cubs
+1927,1439,222,77,29,Cincinnati Reds
+1927,1471,321,52,26,Cleveland Indians
+1927,1533,282,100,51,Detroit Tigers
+1927,1594,251,62,109,San Francisco Giants
+1927,1644,291,103,158,New York Yankees
+1927,1606,281,70,56,Oakland Athletics
+1927,1487,216,46,57,Philadelphia Phillies
+1927,1648,258,78,54,Pittsburgh Pirates
+1927,1440,262,59,55,Baltimore Orioles
+1927,1450,264,79,84,St. Louis Cardinals
+1927,1549,268,87,29,Minnesota Twins
+1928,1356,260,62,38,Boston Red Sox
+1928,1393,229,70,66,Los Angeles Dodgers
+1928,1439,241,41,52,Atlanta Braves
+1928,1405,231,77,24,Chicago White Sox
+1928,1460,251,64,92,Chicago Cubs
+1928,1449,229,67,32,Cincinnati Reds
+1928,1535,299,61,34,Cleveland Indians
+1928,1476,265,97,62,Detroit Tigers
+1928,1600,276,59,118,San Francisco Giants
+1928,1578,269,79,133,New York Yankees
+1928,1540,323,75,89,Oakland Athletics
+1928,1396,257,47,85,Philadelphia Phillies
+1928,1659,246,100,52,Pittsburgh Pirates
+1928,1431,276,76,63,Baltimore Orioles
+1928,1505,292,70,113,St. Louis Cardinals
+1928,1510,277,93,40,Minnesota Twins
+1929,1377,285,69,28,Boston Red Sox
+1929,1535,282,69,99,Los Angeles Dodgers
+1929,1481,252,77,33,Atlanta Braves
+1929,1406,240,74,37,Chicago White Sox
+1929,1655,310,46,139,Chicago Cubs
+1929,1478,258,79,34,Cincinnati Reds
+1929,1525,294,79,62,Cleveland Indians
+1929,1671,339,97,110,Detroit Tigers
+1929,1594,251,47,136,San Francisco Giants
+1929,1587,262,74,142,New York Yankees
+1929,1539,288,76,122,Oakland Athletics
+1929,1693,305,51,153,Philadelphia Phillies
+1929,1663,285,116,60,Pittsburgh Pirates
+1929,1426,277,64,46,Baltimore Orioles
+1929,1569,310,84,100,St. Louis Cardinals
+1929,1445,244,66,48,Minnesota Twins
+1930,1393,257,68,47,Boston Red Sox
+1930,1654,303,73,122,Los Angeles Dodgers
+1930,1503,246,78,66,Atlanta Braves
+1930,1496,256,90,63,Chicago White Sox
+1930,1722,305,72,171,Chicago Cubs
+1930,1475,265,67,74,Cincinnati Reds
+1930,1654,358,59,72,Cleveland Indians
+1930,1504,298,90,82,Detroit Tigers
+1930,1769,264,83,143,San Francisco Giants
+1930,1683,298,110,152,New York Yankees
+1930,1573,319,74,125,Oakland Athletics
+1930,1783,345,44,126,Philadelphia Phillies
+1930,1622,285,119,86,Pittsburgh Pirates
+1930,1415,289,67,75,Baltimore Orioles
+1930,1732,373,89,104,St. Louis Cardinals
+1930,1620,300,98,57,Minnesota Twins
+1931,1409,289,34,37,Boston Red Sox
+1931,1464,240,77,71,Los Angeles Dodgers
+1931,1367,221,59,34,Atlanta Braves
+1931,1423,238,69,27,Chicago White Sox
+1931,1578,340,66,84,Chicago Cubs
+1931,1439,241,70,21,Cincinnati Reds
+1931,1612,321,69,71,Cleveland Indians
+1931,1456,292,69,43,Detroit Tigers
+1931,1554,251,64,101,San Francisco Giants
+1931,1667,277,78,155,New York Yankees
+1931,1544,311,64,118,Oakland Athletics
+1931,1502,299,52,81,Philadelphia Phillies
+1931,1425,243,70,41,Pittsburgh Pirates
+1931,1455,287,62,76,Baltimore Orioles
+1931,1554,353,74,60,St. Louis Cardinals
+1931,1588,308,93,49,Minnesota Twins
+1932,1331,253,57,53,Boston Red Sox
+1932,1538,296,59,110,Los Angeles Dodgers
+1932,1460,262,53,63,Atlanta Braves
+1932,1426,274,56,36,Chicago White Sox
+1932,1519,296,60,69,Chicago Cubs
+1932,1429,265,68,47,Cincinnati Reds
+1932,1544,310,74,78,Cleveland Indians
+1932,1479,291,80,80,Detroit Tigers
+1932,1527,263,54,116,San Francisco Giants
+1932,1564,279,82,160,New York Yankees
+1932,1606,303,52,172,Oakland Athletics
+1932,1608,330,67,122,Philadelphia Phillies
+1932,1543,274,90,48,Pittsburgh Pirates
+1932,1502,274,69,67,Baltimore Orioles
+1932,1467,307,51,76,St. Louis Cardinals
+1932,1565,303,100,61,Minnesota Twins
+1933,1407,294,56,50,Boston Red Sox
+1933,1413,224,51,62,Los Angeles Dodgers
+1933,1320,217,56,54,Atlanta Braves
+1933,1448,231,53,43,Chicago White Sox
+1933,1422,256,51,72,Chicago Cubs
+1933,1267,208,37,34,Cincinnati Reds
+1933,1366,218,77,50,Cleveland Indians
+1933,1479,283,78,57,Detroit Tigers
+1933,1437,204,41,82,San Francisco Giants
+1933,1495,241,75,144,New York Yankees
+1933,1519,298,56,139,Oakland Athletics
+1933,1439,240,41,60,Philadelphia Phillies
+1933,1548,249,84,39,Pittsburgh Pirates
+1933,1337,244,64,64,Baltimore Orioles
+1933,1486,256,61,57,St. Louis Cardinals
+1933,1586,281,86,60,Minnesota Twins
+1934,1465,287,70,51,Boston Red Sox
+1934,1526,284,52,79,Los Angeles Dodgers
+1934,1460,233,44,83,Atlanta Braves
+1934,1395,237,40,71,Chicago White Sox
+1934,1494,263,44,101,Chicago Cubs
+1934,1428,227,65,55,Cincinnati Reds
+1934,1550,340,46,100,Cleveland Indians
+1934,1644,349,53,74,Detroit Tigers
+1934,1485,240,41,126,San Francisco Giants
+1934,1494,226,61,135,New York Yankees
+1934,1491,236,50,144,Oakland Athletics
+1934,1480,286,35,56,Philadelphia Phillies
+1934,1541,281,77,52,Pittsburgh Pirates
+1934,1417,252,59,62,Baltimore Orioles
+1934,1582,294,75,104,St. Louis Cardinals
+1934,1512,278,70,51,Minnesota Twins
+1935,1458,281,63,69,Boston Red Sox
+1935,1496,235,62,59,Los Angeles Dodgers
+1935,1396,233,33,75,Atlanta Braves
+1935,1460,262,42,74,Chicago White Sox
+1935,1581,303,62,88,Chicago Cubs
+1935,1403,244,68,73,Cincinnati Reds
+1935,1573,324,77,93,Cleveland Indians
+1935,1573,301,83,106,Detroit Tigers
+1935,1608,248,56,123,San Francisco Giants
+1935,1462,255,70,104,New York Yankees
+1935,1470,243,44,112,Oakland Athletics
+1935,1466,249,32,92,Philadelphia Phillies
+1935,1543,255,90,66,Pittsburgh Pirates
+1935,1446,291,51,73,Baltimore Orioles
+1935,1548,286,59,86,St. Louis Cardinals
+1935,1591,255,95,32,Minnesota Twins
+1936,1485,288,62,86,Boston Red Sox
+1936,1518,263,43,33,Los Angeles Dodgers
+1936,1450,207,45,67,Atlanta Braves
+1936,1597,282,56,60,Chicago White Sox
+1936,1545,275,36,76,Chicago Cubs
+1936,1476,224,73,82,Cincinnati Reds
+1936,1715,357,82,123,Cleveland Indians
+1936,1638,326,55,94,Detroit Tigers
+1936,1529,237,48,97,San Francisco Giants
+1936,1676,315,83,182,New York Yankees
+1936,1443,240,60,72,Oakland Athletics
+1936,1538,250,46,103,Philadelphia Phillies
+1936,1596,283,80,60,Pittsburgh Pirates
+1936,1502,299,66,79,Baltimore Orioles
+1936,1554,332,60,88,St. Louis Cardinals
+1936,1601,293,84,62,Minnesota Twins
+1937,1506,269,64,100,Boston Red Sox
+1937,1401,258,53,37,Los Angeles Dodgers
+1937,1265,200,41,63,Atlanta Braves
+1937,1478,280,76,67,Chicago White Sox
+1937,1537,253,74,96,Chicago Cubs
+1937,1329,215,59,73,Cincinnati Reds
+1937,1499,304,76,103,Cleveland Indians
+1937,1611,309,62,150,Detroit Tigers
+1937,1484,251,41,111,San Francisco Giants
+1937,1554,282,73,174,New York Yankees
+1937,1398,278,60,94,Oakland Athletics
+1937,1482,258,37,103,Philadelphia Phillies
+1937,1550,223,86,47,Pittsburgh Pirates
+1937,1573,327,44,71,Baltimore Orioles
+1937,1543,264,67,94,St. Louis Cardinals
+1937,1559,245,84,47,Minnesota Twins
+1938,1566,298,56,98,Boston Red Sox
+1938,1322,225,79,61,Los Angeles Dodgers
+1938,1311,199,39,54,Atlanta Braves
+1938,1439,239,55,67,Chicago White Sox
+1938,1435,242,70,65,Chicago Cubs
+1938,1495,251,57,110,Cincinnati Reds
+1938,1506,300,89,113,Cleveland Indians
+1938,1434,219,52,137,Detroit Tigers
+1938,1424,210,36,125,San Francisco Giants
+1938,1480,283,63,174,New York Yankees
+1938,1410,243,62,98,Oakland Athletics
+1938,1318,233,29,40,Philadelphia Phillies
+1938,1511,265,66,65,Pittsburgh Pirates
+1938,1498,273,36,92,Baltimore Orioles
+1938,1542,288,74,91,St. Louis Cardinals
+1938,1602,278,72,85,Minnesota Twins
+1939,1543,287,57,124,Boston Red Sox
+1939,1420,265,57,78,Los Angeles Dodgers
+1939,1395,199,39,56,Atlanta Braves
+1939,1451,220,56,64,Chicago White Sox
+1939,1407,263,62,91,Chicago Cubs
+1939,1493,269,60,98,Cincinnati Reds
+1939,1490,291,79,85,Cleveland Indians
+1939,1487,277,67,124,Detroit Tigers
+1939,1395,211,38,116,San Francisco Giants
+1939,1521,259,55,166,New York Yankees
+1939,1438,282,55,98,Oakland Athletics
+1939,1341,232,40,49,Philadelphia Phillies
+1939,1453,261,60,63,Pittsburgh Pirates
+1939,1453,242,50,91,Baltimore Orioles
+1939,1601,332,62,98,St. Louis Cardinals
+1939,1483,249,79,44,Minnesota Twins
+1940,1566,301,80,145,Boston Red Sox
+1940,1421,256,70,93,Los Angeles Dodgers
+1940,1366,219,50,59,Atlanta Braves
+1940,1499,238,63,73,Chicago White Sox
+1940,1441,272,48,86,Chicago Cubs
+1940,1427,264,38,89,Cincinnati Reds
+1940,1422,287,61,101,Cleveland Indians
+1940,1549,312,65,134,Detroit Tigers
+1940,1423,201,46,91,San Francisco Giants
+1940,1371,243,66,155,New York Yankees
+1940,1391,242,53,105,Oakland Athletics
+1940,1225,180,35,75,Philadelphia Phillies
+1940,1511,276,68,76,Pittsburgh Pirates
+1940,1423,278,58,118,Baltimore Orioles
+1940,1514,266,61,119,St. Louis Cardinals
+1940,1453,266,67,52,Minnesota Twins
+1941,1517,304,55,124,Boston Red Sox
+1941,1494,286,69,101,Los Angeles Dodgers
+1941,1357,231,38,48,Atlanta Braves
+1941,1376,245,47,47,Chicago White Sox
+1941,1323,239,25,99,Chicago Cubs
+1941,1288,213,33,64,Cincinnati Reds
+1941,1350,249,84,103,Cleveland Indians
+1941,1412,247,55,81,Detroit Tigers
+1941,1401,248,35,95,San Francisco Giants
+1941,1464,243,60,151,New York Yankees
+1941,1431,240,69,85,Oakland Athletics
+1941,1277,188,38,64,Philadelphia Phillies
+1941,1417,233,65,56,Pittsburgh Pirates
+1941,1440,281,58,91,Baltimore Orioles
+1941,1482,254,56,70,St. Louis Cardinals
+1941,1502,257,80,52,Minnesota Twins
+1942,1451,244,55,103,Boston Red Sox
+1942,1398,263,34,62,Los Angeles Dodgers
+1942,1216,210,19,68,Atlanta Braves
+1942,1215,214,36,25,Chicago White Sox
+1942,1360,224,41,75,Chicago Cubs
+1942,1216,198,39,66,Cincinnati Reds
+1942,1344,223,58,50,Cleveland Indians
+1942,1313,217,37,76,Detroit Tigers
+1942,1323,162,35,109,San Francisco Giants
+1942,1429,223,57,108,New York Yankees
+1942,1315,213,46,33,Oakland Athletics
+1942,1174,168,37,44,Philadelphia Phillies
+1942,1250,173,49,54,Pittsburgh Pirates
+1942,1354,239,62,98,Baltimore Orioles
+1942,1454,282,69,60,St. Louis Cardinals
+1942,1364,224,49,40,Minnesota Twins
+1943,1314,223,42,57,Boston Red Sox
+1943,1444,263,35,39,Los Angeles Dodgers
+1943,1213,202,36,39,Atlanta Braves
+1943,1297,193,46,33,Chicago White Sox
+1943,1380,207,56,52,Chicago Cubs
+1943,1362,229,47,43,Cincinnati Reds
+1943,1344,246,45,55,Cleveland Indians
+1943,1401,200,47,77,Detroit Tigers
+1943,1309,153,33,81,San Francisco Giants
+1943,1350,218,59,100,New York Yankees
+1943,1219,174,44,26,Oakland Athletics
+1943,1321,186,36,66,Philadelphia Phillies
+1943,1401,240,73,42,Pittsburgh Pirates
+1943,1269,229,36,78,Baltimore Orioles
+1943,1515,259,72,70,St. Louis Cardinals
+1943,1328,245,50,47,Minnesota Twins
+1944,1456,277,56,69,Boston Red Sox
+1944,1450,255,51,56,Los Angeles Dodgers
+1944,1299,250,39,79,Atlanta Braves
+1944,1307,210,55,23,Chicago White Sox
+1944,1425,236,46,71,Chicago Cubs
+1944,1340,229,31,51,Cincinnati Reds
+1944,1458,270,50,70,Cleveland Indians
+1944,1405,220,44,60,Detroit Tigers
+1944,1398,191,47,93,San Francisco Giants
+1944,1410,216,74,96,New York Yankees
+1944,1364,169,47,36,Oakland Athletics
+1944,1331,199,42,55,Philadelphia Phillies
+1944,1441,248,80,70,Pittsburgh Pirates
+1944,1328,223,45,72,Baltimore Orioles
+1944,1507,274,59,100,St. Louis Cardinals
+1944,1386,186,42,33,Minnesota Twins
+1945,1393,225,44,50,Boston Red Sox
+1945,1468,257,71,57,Los Angeles Dodgers
+1945,1453,229,25,101,Atlanta Braves
+1945,1330,204,55,22,Chicago White Sox
+1945,1465,229,52,57,Chicago Cubs
+1945,1317,221,26,56,Cincinnati Reds
+1945,1249,216,48,65,Cleveland Indians
+1945,1345,227,47,77,Detroit Tigers
+1945,1439,175,35,114,San Francisco Giants
+1945,1343,189,61,93,New York Yankees
+1945,1297,201,37,33,Oakland Athletics
+1945,1278,197,27,56,Philadelphia Phillies
+1945,1425,259,56,72,Pittsburgh Pirates
+1945,1302,215,37,63,Baltimore Orioles
+1945,1498,256,44,64,St. Louis Cardinals
+1945,1375,197,63,27,Minnesota Twins
+1946,1441,268,50,109,Boston Red Sox
+1946,1376,233,66,55,Los Angeles Dodgers
+1946,1377,238,48,44,Atlanta Braves
+1946,1364,206,44,37,Chicago White Sox
+1946,1344,223,50,56,Chicago Cubs
+1946,1262,206,33,65,Cincinnati Reds
+1946,1285,233,56,79,Cleveland Indians
+1946,1373,212,41,108,Detroit Tigers
+1946,1326,176,37,121,San Francisco Giants
+1946,1275,208,50,136,New York Yankees
+1946,1317,220,51,40,Oakland Athletics
+1946,1351,209,40,80,Philadelphia Phillies
+1946,1300,202,52,60,Pittsburgh Pirates
+1946,1350,220,46,84,Baltimore Orioles
+1946,1426,265,56,81,St. Louis Cardinals
+1946,1388,260,63,60,Minnesota Twins
+1947,1412,206,54,103,Boston Red Sox
+1947,1428,241,50,83,Los Angeles Dodgers
+1947,1444,265,42,85,Atlanta Braves
+1947,1350,211,41,53,Chicago White Sox
+1947,1373,231,48,71,Chicago Cubs
+1947,1372,242,43,95,Cincinnati Reds
+1947,1392,234,51,112,Cleveland Indians
+1947,1363,234,42,103,Detroit Tigers
+1947,1446,220,48,221,San Francisco Giants
+1947,1439,230,72,115,New York Yankees
+1947,1311,218,52,61,Oakland Athletics
+1947,1354,210,52,60,Philadelphia Phillies
+1947,1385,216,44,156,Pittsburgh Pirates
+1947,1238,189,52,90,Baltimore Orioles
+1947,1462,235,65,115,St. Louis Cardinals
+1947,1234,186,48,42,Minnesota Twins
+1948,1471,277,40,121,Boston Red Sox
+1948,1393,256,54,91,Los Angeles Dodgers
+1948,1458,272,49,95,Atlanta Braves
+1948,1303,172,39,55,Chicago White Sox
+1948,1402,225,44,87,Chicago Cubs
+1948,1266,221,37,104,Cincinnati Reds
+1948,1534,242,54,155,Cleveland Indians
+1948,1396,219,58,78,Detroit Tigers
+1948,1352,210,49,164,San Francisco Giants
+1948,1480,251,75,139,New York Yankees
+1948,1345,231,47,68,Oakland Athletics
+1948,1367,227,39,91,Philadelphia Phillies
+1948,1388,191,54,108,Pittsburgh Pirates
+1948,1438,251,62,63,Baltimore Orioles
+1948,1396,238,58,105,St. Louis Cardinals
+1948,1245,203,75,31,Minnesota Twins
+1949,1500,272,36,131,Boston Red Sox
+1949,1477,236,47,152,Los Angeles Dodgers
+1949,1376,246,33,103,Atlanta Braves
+1949,1340,207,66,43,Chicago White Sox
+1949,1336,212,53,97,Chicago Cubs
+1949,1423,264,35,86,Cincinnati Reds
+1949,1358,194,58,112,Cleveland Indians
+1949,1405,215,51,88,Detroit Tigers
+1949,1383,203,52,147,San Francisco Giants
+1949,1396,215,60,115,New York Yankees
+1949,1331,214,49,82,Oakland Athletics
+1949,1349,232,55,122,Philadelphia Phillies
+1949,1350,191,41,126,Pittsburgh Pirates
+1949,1301,213,30,117,Baltimore Orioles
+1949,1513,281,54,102,St. Louis Cardinals
+1949,1330,207,41,81,Minnesota Twins
+1950,1665,287,61,161,Boston Red Sox
+1950,1461,247,46,194,Los Angeles Dodgers
+1950,1411,246,36,148,Atlanta Braves
+1950,1368,172,47,93,Chicago White Sox
+1950,1298,224,47,161,Chicago Cubs
+1950,1366,257,27,99,Cincinnati Reds
+1950,1417,222,46,164,Cleveland Indians
+1950,1518,285,50,114,Detroit Tigers
+1950,1352,204,50,133,San Francisco Giants
+1950,1511,234,70,159,New York Yankees
+1950,1361,204,53,100,Oakland Athletics
+1950,1440,225,55,125,Philadelphia Phillies
+1950,1404,227,59,138,Pittsburgh Pirates
+1950,1269,235,43,106,Baltimore Orioles
+1950,1353,255,50,102,St. Louis Cardinals
+1950,1365,190,53,76,Minnesota Twins
+1951,1428,233,32,127,Boston Red Sox
+1951,1511,249,37,184,Los Angeles Dodgers
+1951,1385,234,37,130,Atlanta Braves
+1951,1453,229,64,86,Chicago White Sox
+1951,1327,200,47,103,Chicago Cubs
+1951,1309,215,33,88,Cincinnati Reds
+1951,1346,208,35,140,Cleveland Indians
+1951,1413,231,35,104,Detroit Tigers
+1951,1396,201,53,179,San Francisco Giants
+1951,1395,208,48,140,New York Yankees
+1951,1381,262,43,102,Oakland Athletics
+1951,1384,199,47,108,Philadelphia Phillies
+1951,1372,218,56,137,Pittsburgh Pirates
+1951,1288,223,47,86,Baltimore Orioles
+1951,1404,230,57,95,St. Louis Cardinals
+1951,1399,242,45,54,Minnesota Twins
+1952,1338,233,34,113,Boston Red Sox
+1952,1380,199,32,153,Los Angeles Dodgers
+1952,1214,187,31,110,Atlanta Braves
+1952,1337,199,38,80,Chicago White Sox
+1952,1408,223,45,107,Chicago Cubs
+1952,1303,212,45,104,Cincinnati Reds
+1952,1399,211,49,148,Cleveland Indians
+1952,1278,190,37,103,Detroit Tigers
+1952,1337,186,56,151,San Francisco Giants
+1952,1411,221,56,129,New York Yankees
+1952,1305,212,35,89,Oakland Athletics
+1952,1353,237,45,93,Philadelphia Phillies
+1952,1201,181,30,92,Pittsburgh Pirates
+1952,1340,225,46,82,Baltimore Orioles
+1952,1386,247,54,97,St. Louis Cardinals
+1952,1282,225,44,50,Minnesota Twins
+1953,1385,255,37,101,Boston Red Sox
+1953,1529,274,59,208,Los Angeles Dodgers
+1953,1345,226,53,74,Chicago White Sox
+1953,1372,204,57,137,Chicago Cubs
+1953,1396,190,34,166,Cincinnati Reds
+1953,1426,201,29,160,Cleveland Indians
+1953,1479,259,44,108,Detroit Tigers
+1953,1422,227,52,156,Atlanta Braves
+1953,1452,195,45,176,San Francisco Giants
+1953,1420,226,52,139,New York Yankees
+1953,1398,205,38,116,Oakland Athletics
+1953,1400,228,62,115,Philadelphia Phillies
+1953,1297,178,49,99,Pittsburgh Pirates
+1953,1310,214,25,112,Baltimore Orioles
+1953,1474,281,56,140,St. Louis Cardinals
+1953,1354,230,53,69,Minnesota Twins
+1954,1309,195,49,52,Baltimore Orioles
+1954,1436,244,41,123,Boston Red Sox
+1954,1418,246,56,186,Los Angeles Dodgers
+1954,1382,203,47,94,Chicago White Sox
+1954,1412,229,45,159,Chicago Cubs
+1954,1369,221,46,147,Cincinnati Reds
+1954,1368,188,39,156,Cleveland Indians
+1954,1351,215,41,90,Detroit Tigers
+1954,1395,217,41,139,Atlanta Braves
+1954,1386,194,42,186,San Francisco Giants
+1954,1400,215,59,133,New York Yankees
+1954,1228,191,41,94,Oakland Athletics
+1954,1384,243,58,102,Philadelphia Phillies
+1954,1260,181,57,76,Pittsburgh Pirates
+1954,1518,285,58,119,St. Louis Cardinals
+1954,1292,188,69,81,Minnesota Twins
+1955,1263,177,39,54,Baltimore Orioles
+1955,1392,241,39,137,Boston Red Sox
+1955,1406,230,44,201,Los Angeles Dodgers
+1955,1401,204,36,116,Chicago White Sox
+1955,1287,187,55,164,Chicago Cubs
+1955,1424,216,28,181,Cincinnati Reds
+1955,1325,195,31,148,Cleveland Indians
+1955,1407,211,38,130,Detroit Tigers
+1955,1395,189,46,121,Oakland Athletics
+1955,1377,219,55,182,Atlanta Braves
+1955,1377,173,34,169,San Francisco Giants
+1955,1342,179,55,175,New York Yankees
+1955,1300,214,50,132,Philadelphia Phillies
+1955,1262,210,60,91,Pittsburgh Pirates
+1955,1375,228,36,143,St. Louis Cardinals
+1955,1277,178,54,80,Minnesota Twins
+1956,1242,198,34,91,Baltimore Orioles
+1956,1473,261,45,139,Boston Red Sox
+1956,1315,212,36,179,Los Angeles Dodgers
+1956,1412,218,43,128,Chicago White Sox
+1956,1281,202,50,142,Chicago Cubs
+1956,1406,201,32,221,Cincinnati Reds
+1956,1256,199,23,153,Cleveland Indians
+1956,1494,209,50,150,Detroit Tigers
+1956,1325,204,41,112,Oakland Athletics
+1956,1350,212,54,177,Atlanta Braves
+1956,1268,192,45,145,San Francisco Giants
+1956,1433,193,55,190,New York Yankees
+1956,1313,207,49,121,Philadelphia Phillies
+1956,1340,199,57,110,Pittsburgh Pirates
+1956,1443,234,49,124,St. Louis Cardinals
+1956,1302,198,62,112,Minnesota Twins
+1957,1326,191,39,87,Baltimore Orioles
+1957,1380,231,32,153,Boston Red Sox
+1957,1325,188,38,147,Los Angeles Dodgers
+1957,1369,208,41,106,Chicago White Sox
+1957,1312,223,31,147,Chicago Cubs
+1957,1452,251,33,187,Cincinnati Reds
+1957,1304,199,26,140,Cleveland Indians
+1957,1376,224,37,116,Detroit Tigers
+1957,1262,195,40,166,Oakland Athletics
+1957,1469,221,62,199,Atlanta Braves
+1957,1349,171,54,157,San Francisco Giants
+1957,1412,200,54,145,New York Yankees
+1957,1311,213,44,117,Philadelphia Phillies
+1957,1447,231,60,92,Pittsburgh Pirates
+1957,1497,235,43,132,St. Louis Cardinals
+1957,1274,215,38,111,Minnesota Twins
+1958,1233,195,19,108,Baltimore Orioles
+1958,1335,229,30,155,Boston Red Sox
+1958,1348,191,42,101,Chicago White Sox
+1958,1402,207,49,182,Chicago Cubs
+1958,1359,242,40,123,Cincinnati Reds
+1958,1340,210,31,161,Cleveland Indians
+1958,1384,229,41,109,Detroit Tigers
+1958,1297,196,50,138,Oakland Athletics
+1958,1297,166,50,172,Los Angeles Dodgers
+1958,1388,221,21,167,Atlanta Braves
+1958,1418,212,39,164,New York Yankees
+1958,1424,238,56,124,Philadelphia Phillies
+1958,1386,229,68,134,Pittsburgh Pirates
+1958,1399,250,42,170,San Francisco Giants
+1958,1371,216,39,111,St. Louis Cardinals
+1958,1240,161,38,121,Minnesota Twins
+1959,1240,182,23,109,Baltimore Orioles
+1959,1335,248,28,125,Boston Red Sox
+1959,1325,220,46,97,Chicago White Sox
+1959,1321,209,44,163,Chicago Cubs
+1959,1448,258,34,161,Cincinnati Reds
+1959,1390,216,25,167,Cleveland Indians
+1959,1346,196,30,160,Detroit Tigers
+1959,1383,231,43,117,Oakland Athletics
+1959,1360,196,46,148,Los Angeles Dodgers
+1959,1426,216,36,177,Atlanta Braves
+1959,1397,224,40,153,New York Yankees
+1959,1237,196,38,113,Philadelphia Phillies
+1959,1414,230,42,112,Pittsburgh Pirates
+1959,1377,239,35,167,San Francisco Giants
+1959,1432,244,49,118,St. Louis Cardinals
+1959,1205,173,32,163,Minnesota Twins
+1960,1307,206,33,123,Baltimore Orioles
+1960,1359,234,32,124,Boston Red Sox
+1960,1402,242,38,112,Chicago White Sox
+1960,1293,213,48,119,Chicago Cubs
+1960,1324,230,40,140,Cincinnati Reds
+1960,1415,218,20,127,Cleveland Indians
+1960,1243,188,34,150,Detroit Tigers
+1960,1303,212,34,110,Oakland Athletics
+1960,1333,216,38,126,Los Angeles Dodgers
+1960,1393,198,48,170,Atlanta Braves
+1960,1377,215,40,193,New York Yankees
+1960,1235,196,44,99,Philadelphia Phillies
+1960,1493,236,56,120,Pittsburgh Pirates
+1960,1357,220,62,130,San Francisco Giants
+1960,1317,213,48,138,St. Louis Cardinals
+1960,1283,205,43,147,Minnesota Twins
+1962,1363,225,34,156,Baltimore Orioles
+1962,1429,257,53,146,Boston Red Sox
+1962,1415,250,56,92,Chicago White Sox
+1962,1398,196,56,126,Chicago Cubs
+1962,1523,252,40,167,Cincinnati Reds
+1962,1341,202,22,180,Cleveland Indians
+1962,1352,191,36,209,Detroit Tigers
+1962,1370,170,47,105,Houston Astros
+1962,1467,220,58,116,Oakland Athletics
+1962,1377,232,35,137,Los Angeles Angels
+1962,1510,192,65,140,Los Angeles Dodgers
+1962,1445,215,39,185,Minnesota Twins
+1962,1376,204,38,181,Atlanta Braves
+1962,1509,240,29,199,New York Yankees
+1962,1318,166,40,139,New York Mets
+1962,1410,199,39,142,Philadelphia Phillies
+1962,1468,240,65,108,Pittsburgh Pirates
+1962,1552,235,32,204,San Francisco Giants
+1962,1528,221,31,137,St. Louis Cardinals
+1962,1370,206,38,132,Texas Rangers
+1963,1359,207,32,146,Baltimore Orioles
+1963,1403,247,34,171,Boston Red Sox
+1963,1379,208,40,114,Chicago White Sox
+1963,1286,205,44,127,Chicago Cubs
+1963,1333,225,44,122,Cincinnati Reds
+1963,1314,214,29,169,Cleveland Indians
+1963,1388,195,36,148,Detroit Tigers
+1963,1184,170,39,62,Houston Astros
+1963,1356,225,38,95,Oakland Athletics
+1963,1378,208,38,95,Los Angeles Angels
+1963,1361,178,34,110,Los Angeles Dodgers
+1963,1408,223,35,225,Minnesota Twins
+1963,1345,204,39,139,Atlanta Braves
+1963,1387,197,35,188,New York Yankees
+1963,1168,156,35,96,New York Mets
+1963,1390,228,54,126,Philadelphia Phillies
+1963,1385,181,49,108,Pittsburgh Pirates
+1963,1442,206,35,197,San Francisco Giants
+1963,1540,231,66,128,St. Louis Cardinals
+1963,1237,190,35,138,Texas Rangers
+1964,1357,229,20,162,Baltimore Orioles
+1964,1425,253,29,186,Boston Red Sox
+1964,1356,184,40,106,Chicago White Sox
+1964,1391,239,50,145,Chicago Cubs
+1964,1383,220,38,130,Cincinnati Reds
+1964,1386,208,22,164,Cleveland Indians
+1964,1394,199,57,157,Detroit Tigers
+1964,1214,162,41,70,Houston Astros
+1964,1321,216,29,166,Oakland Athletics
+1964,1297,186,27,102,Los Angeles Angels
+1964,1375,180,39,79,Los Angeles Dodgers
+1964,1413,227,46,221,Minnesota Twins
+1964,1522,274,32,159,Atlanta Braves
+1964,1442,208,35,162,New York Yankees
+1964,1372,195,31,103,New York Mets
+1964,1415,241,51,130,Philadelphia Phillies
+1964,1469,225,54,121,Pittsburgh Pirates
+1964,1360,185,38,165,San Francisco Giants
+1964,1531,240,53,109,St. Louis Cardinals
+1964,1246,199,28,125,Texas Rangers
+1965,1299,227,38,125,Baltimore Orioles
+1965,1378,244,40,165,Boston Red Sox
+1965,1279,200,36,92,Los Angeles Angels
+1965,1354,200,38,125,Chicago White Sox
+1965,1316,202,33,134,Chicago Cubs
+1965,1544,268,61,183,Cincinnati Reds
+1965,1367,198,21,156,Cleveland Indians
+1965,1278,190,27,162,Detroit Tigers
+1965,1299,188,42,97,Houston Astros
+1965,1294,186,59,110,Oakland Athletics
+1965,1329,193,32,78,Los Angeles Dodgers
+1965,1396,257,42,150,Minnesota Twins
+1965,1419,243,28,196,Atlanta Braves
+1965,1286,196,31,149,New York Yankees
+1965,1202,203,27,107,New York Mets
+1965,1380,205,53,144,Philadelphia Phillies
+1965,1506,217,57,111,Pittsburgh Pirates
+1965,1384,169,43,159,San Francisco Giants
+1965,1415,234,46,109,St. Louis Cardinals
+1965,1227,179,33,136,Texas Rangers
+1966,1476,220,32,207,Atlanta Braves
+1966,1426,243,35,175,Baltimore Orioles
+1966,1318,228,44,145,Boston Red Sox
+1966,1244,179,54,122,Los Angeles Angels
+1966,1235,193,40,87,Chicago White Sox
+1966,1418,203,43,140,Chicago Cubs
+1966,1434,232,33,149,Cincinnati Reds
+1966,1300,156,25,155,Cleveland Indians
+1966,1383,224,45,179,Detroit Tigers
+1966,1405,203,35,112,Houston Astros
+1966,1259,212,56,70,Oakland Athletics
+1966,1399,201,27,108,Los Angeles Dodgers
+1966,1341,219,33,144,Minnesota Twins
+1966,1254,182,36,162,New York Yankees
+1966,1286,187,35,98,New York Mets
+1966,1448,224,49,117,Philadelphia Phillies
+1966,1586,238,66,158,Pittsburgh Pirates
+1966,1373,195,31,181,San Francisco Giants
+1966,1377,196,61,108,St. Louis Cardinals
+1966,1245,185,40,126,Texas Rangers
+1967,1307,191,29,158,Atlanta Braves
+1967,1312,215,44,138,Baltimore Orioles
+1967,1394,216,39,158,Boston Red Sox
+1967,1265,170,37,114,Los Angeles Angels
+1967,1209,181,34,89,Chicago White Sox
+1967,1373,211,49,128,Chicago Cubs
+1967,1366,251,54,109,Cincinnati Reds
+1967,1282,213,35,131,Cleveland Indians
+1967,1315,192,36,152,Detroit Tigers
+1967,1372,259,46,93,Houston Astros
+1967,1244,212,50,69,Oakland Athletics
+1967,1285,203,38,82,Los Angeles Dodgers
+1967,1309,216,48,131,Minnesota Twins
+1967,1225,166,17,100,New York Yankees
+1967,1288,178,23,83,New York Mets
+1967,1306,221,47,103,Philadelphia Phillies
+1967,1585,193,62,91,Pittsburgh Pirates
+1967,1354,201,39,140,San Francisco Giants
+1967,1462,225,40,115,St. Louis Cardinals
+1967,1211,168,25,115,Texas Rangers
+1968,1399,179,31,80,Atlanta Braves
+1968,1187,215,28,133,Baltimore Orioles
+1968,1253,207,17,125,Boston Red Sox
+1968,1209,170,33,83,Los Angeles Angels
+1968,1233,169,33,71,Chicago White Sox
+1968,1319,203,43,130,Chicago Cubs
+1968,1573,281,36,106,Cincinnati Reds
+1968,1266,210,36,75,Cleveland Indians
+1968,1292,190,39,185,Detroit Tigers
+1968,1233,205,28,66,Houston Astros
+1968,1234,202,36,67,Los Angeles Dodgers
+1968,1274,207,41,105,Minnesota Twins
+1968,1137,154,34,109,New York Yankees
+1968,1252,178,30,81,New York Mets
+1968,1300,192,40,94,Oakland Athletics
+1968,1253,178,30,100,Philadelphia Phillies
+1968,1404,180,44,80,Pittsburgh Pirates
+1968,1301,162,33,108,San Francisco Giants
+1968,1383,227,48,73,St. Louis Cardinals
+1968,1208,160,37,124,Texas Rangers
+1969,1411,195,22,141,Atlanta Braves
+1969,1465,234,29,175,Baltimore Orioles
+1969,1381,234,37,197,Boston Red Sox
+1969,1221,151,29,88,Los Angeles Angels
+1969,1346,210,27,112,Chicago White Sox
+1969,1400,215,40,142,Chicago Cubs
+1969,1558,224,42,171,Cincinnati Reds
+1969,1272,173,24,119,Cleveland Indians
+1969,1316,188,29,182,Detroit Tigers
+1969,1284,208,40,104,Houston Astros
+1969,1311,179,32,98,Kansas City Royals
+1969,1405,185,52,97,Los Angeles Dodgers
+1969,1520,246,32,163,Minnesota Twins
+1969,1300,202,33,125,Washington Nationals
+1969,1247,210,44,94,New York Yankees
+1969,1311,184,41,109,New York Mets
+1969,1400,210,28,148,Oakland Athletics
+1969,1304,227,35,137,Philadelphia Phillies
+1969,1557,220,52,119,Pittsburgh Pirates
+1969,1203,180,42,99,San Diego Padres
+1969,1276,179,27,125,Milwaukee Brewers
+1969,1325,187,28,136,San Francisco Giants
+1969,1403,228,44,90,St. Louis Cardinals
+1969,1365,171,40,148,Texas Rangers
+1970,1495,215,24,160,Atlanta Braves
+1970,1424,213,25,179,Baltimore Orioles
+1970,1450,252,28,203,Boston Red Sox
+1970,1391,197,40,114,Los Angeles Angels
+1970,1394,192,20,123,Chicago White Sox
+1970,1424,228,44,179,Chicago Cubs
+1970,1498,253,45,191,Cincinnati Reds
+1970,1358,197,23,183,Cleveland Indians
+1970,1282,207,38,148,Detroit Tigers
+1970,1446,250,47,129,Houston Astros
+1970,1341,202,41,97,Kansas City Royals
+1970,1515,233,67,87,Los Angeles Dodgers
+1970,1438,230,41,153,Minnesota Twins
+1970,1305,202,24,126,Milwaukee Brewers
+1970,1284,211,35,136,Washington Nationals
+1970,1381,208,41,111,New York Yankees
+1970,1358,211,42,120,New York Mets
+1970,1338,208,24,171,Oakland Athletics
+1970,1299,224,58,101,Philadelphia Phillies
+1970,1522,235,70,130,Pittsburgh Pirates
+1970,1353,208,36,172,San Diego Padres
+1970,1460,257,35,165,San Francisco Giants
+1970,1497,218,51,113,St. Louis Cardinals
+1970,1302,184,28,138,Texas Rangers
+1971,1434,192,30,153,Atlanta Braves
+1971,1382,207,25,158,Baltimore Orioles
+1971,1360,246,28,161,Boston Red Sox
+1971,1271,213,18,96,Los Angeles Angels
+1971,1346,185,30,138,Chicago White Sox
+1971,1401,202,34,128,Chicago Cubs
+1971,1306,203,28,138,Cincinnati Reds
+1971,1303,200,20,109,Cleveland Indians
+1971,1399,214,38,179,Detroit Tigers
+1971,1319,230,52,71,Houston Astros
+1971,1323,225,40,80,Kansas City Royals
+1971,1469,213,38,95,Los Angeles Dodgers
+1971,1406,197,31,116,Minnesota Twins
+1971,1188,160,23,104,Milwaukee Brewers
+1971,1312,197,29,88,Washington Nationals
+1971,1377,195,43,97,New York Yankees
+1971,1365,203,29,98,New York Mets
+1971,1383,195,25,160,Oakland Athletics
+1971,1289,209,35,123,Philadelphia Phillies
+1971,1555,223,61,154,Pittsburgh Pirates
+1971,1250,184,31,96,San Diego Padres
+1971,1348,224,36,140,San Francisco Giants
+1971,1542,225,54,95,St. Louis Cardinals
+1971,1219,189,30,86,Texas Rangers
+1973,1497,219,34,206,Atlanta Braves
+1973,1474,229,48,119,Baltimore Orioles
+1973,1472,235,30,147,Boston Red Sox
+1973,1395,183,29,93,Los Angeles Angels
+1973,1400,228,38,111,Chicago White Sox
+1973,1322,201,21,117,Chicago Cubs
+1973,1398,232,34,137,Cincinnati Reds
+1973,1429,205,29,158,Cleveland Indians
+1973,1400,213,32,157,Detroit Tigers
+1973,1391,216,35,134,Houston Astros
+1973,1440,239,40,114,Kansas City Royals
+1973,1473,219,29,110,Los Angeles Dodgers
+1973,1521,240,44,120,Minnesota Twins
+1973,1399,229,40,145,Milwaukee Brewers
+1973,1345,190,23,125,Washington Nationals
+1973,1435,212,17,131,New York Yankees
+1973,1345,198,24,85,New York Mets
+1973,1431,216,28,147,Oakland Athletics
+1973,1381,218,29,134,Philadelphia Phillies
+1973,1465,257,44,154,Pittsburgh Pirates
+1973,1330,198,26,112,San Diego Padres
+1973,1452,212,52,161,San Francisco Giants
+1973,1418,240,35,75,St. Louis Cardinals
+1973,1397,195,29,110,Texas Rangers
+1974,1375,202,37,120,Atlanta Braves
+1974,1418,226,27,116,Baltimore Orioles
+1974,1449,236,31,109,Boston Red Sox
+1974,1372,203,31,95,Los Angeles Angels
+1974,1492,225,23,135,Chicago White Sox
+1974,1397,221,42,110,Chicago Cubs
+1974,1437,271,35,135,Cincinnati Reds
+1974,1395,201,19,131,Cleveland Indians
+1974,1375,200,35,131,Detroit Tigers
+1974,1441,222,41,110,Houston Astros
+1974,1448,232,42,89,Kansas City Royals
+1974,1511,231,34,139,Los Angeles Dodgers
+1974,1530,190,37,111,Minnesota Twins
+1974,1335,228,49,120,Milwaukee Brewers
+1974,1355,201,29,86,Washington Nationals
+1974,1451,220,30,101,New York Yankees
+1974,1286,183,22,96,New York Mets
+1974,1315,205,37,132,Oakland Athletics
+1974,1434,233,50,95,Philadelphia Phillies
+1974,1560,238,46,114,Pittsburgh Pirates
+1974,1239,196,27,99,San Diego Padres
+1974,1380,228,38,93,San Francisco Giants
+1974,1492,216,46,83,St. Louis Cardinals
+1974,1482,198,39,99,Texas Rangers
+1975,1323,179,28,107,Atlanta Braves
+1975,1382,224,33,124,Baltimore Orioles
+1975,1500,284,44,134,Boston Red Sox
+1975,1324,195,41,55,Los Angeles Angels
+1975,1400,209,38,94,Chicago White Sox
+1975,1419,229,41,95,Chicago Cubs
+1975,1515,278,37,124,Cincinnati Reds
+1975,1409,201,25,153,Cleveland Indians
+1975,1338,171,39,125,Detroit Tigers
+1975,1401,218,54,84,Houston Astros
+1975,1431,263,58,118,Kansas City Royals
+1975,1355,217,31,118,Los Angeles Dodgers
+1975,1497,215,28,121,Minnesota Twins
+1975,1343,242,34,146,Milwaukee Brewers
+1975,1346,216,31,98,Washington Nationals
+1975,1430,230,39,110,New York Yankees
+1975,1430,217,34,101,New York Mets
+1975,1376,220,33,151,Oakland Athletics
+1975,1506,283,42,125,Philadelphia Phillies
+1975,1444,255,47,138,Pittsburgh Pirates
+1975,1324,215,22,78,San Diego Padres
+1975,1412,235,45,84,San Francisco Giants
+1975,1527,239,46,81,St. Louis Cardinals
+1975,1431,208,17,134,Texas Rangers
+1976,1309,170,30,82,Atlanta Braves
+1976,1326,213,28,119,Baltimore Orioles
+1976,1448,257,53,134,Boston Red Sox
+1976,1265,210,23,63,Los Angeles Angels
+1976,1410,209,46,73,Chicago White Sox
+1976,1386,216,24,105,Chicago Cubs
+1976,1599,271,63,141,Cincinnati Reds
+1976,1423,189,38,85,Cleveland Indians
+1976,1401,207,38,101,Detroit Tigers
+1976,1401,195,50,66,Houston Astros
+1976,1490,259,57,65,Kansas City Royals
+1976,1371,200,34,91,Los Angeles Dodgers
+1976,1526,222,51,81,Minnesota Twins
+1976,1326,170,38,88,Milwaukee Brewers
+1976,1275,224,32,94,Washington Nationals
+1976,1496,231,36,120,New York Yankees
+1976,1334,198,34,102,New York Mets
+1976,1319,208,33,113,Oakland Athletics
+1976,1505,259,45,110,Philadelphia Phillies
+1976,1499,249,56,110,Pittsburgh Pirates
+1976,1327,216,37,64,San Diego Padres
+1976,1340,211,37,85,San Francisco Giants
+1976,1432,243,57,63,St. Louis Cardinals
+1976,1390,213,26,80,Texas Rangers
+1977,1404,218,20,139,Atlanta Braves
+1977,1433,231,25,148,Baltimore Orioles
+1977,1551,258,56,213,Boston Red Sox
+1977,1380,233,40,131,Los Angeles Angels
+1977,1568,254,52,192,Chicago White Sox
+1977,1489,271,37,111,Chicago Cubs
+1977,1513,269,42,181,Cincinnati Reds
+1977,1476,221,46,100,Cleveland Indians
+1977,1480,228,45,166,Detroit Tigers
+1977,1405,263,60,114,Houston Astros
+1977,1549,299,77,146,Kansas City Royals
+1977,1484,223,28,191,Los Angeles Dodgers
+1977,1588,273,60,123,Minnesota Twins
+1977,1425,255,46,125,Milwaukee Brewers
+1977,1474,294,50,138,Washington Nationals
+1977,1576,267,47,184,New York Yankees
+1977,1319,227,30,88,New York Mets
+1977,1284,176,37,117,Oakland Athletics
+1977,1548,266,56,186,Philadelphia Phillies
+1977,1550,278,57,133,Pittsburgh Pirates
+1977,1397,245,49,120,San Diego Padres
+1977,1398,218,33,133,Seattle Mariners
+1977,1392,227,41,134,San Francisco Giants
+1977,1490,252,56,96,St. Louis Cardinals
+1977,1497,265,39,135,Texas Rangers
+1977,1367,230,41,100,Toronto Blue Jays
+1978,1313,191,39,123,Atlanta Braves
+1978,1397,248,19,154,Baltimore Orioles
+1978,1493,270,46,172,Boston Red Sox
+1978,1417,226,28,108,Los Angeles Angels
+1978,1423,221,41,106,Chicago White Sox
+1978,1461,224,48,72,Chicago Cubs
+1978,1378,270,32,136,Cincinnati Reds
+1978,1400,223,45,106,Cleveland Indians
+1978,1520,218,34,129,Detroit Tigers
+1978,1408,231,45,70,Houston Astros
+1978,1469,305,59,98,Kansas City Royals
+1978,1435,251,27,149,Los Angeles Dodgers
+1978,1472,259,47,82,Minnesota Twins
+1978,1530,265,38,173,Milwaukee Brewers
+1978,1404,269,31,121,Washington Nationals
+1978,1489,228,38,125,New York Yankees
+1978,1332,227,47,86,New York Mets
+1978,1304,200,31,100,Oakland Athletics
+1978,1404,248,32,133,Philadelphia Phillies
+1978,1390,239,54,115,Pittsburgh Pirates
+1978,1349,208,42,75,San Diego Padres
+1978,1327,229,37,97,Seattle Mariners
+1978,1331,240,41,117,San Francisco Giants
+1978,1351,263,44,79,St. Louis Cardinals
+1978,1353,216,36,132,Texas Rangers
+1978,1358,217,39,98,Toronto Blue Jays
+1979,1389,220,28,126,Atlanta Braves
+1979,1401,258,24,181,Baltimore Orioles
+1979,1567,310,34,194,Boston Red Sox
+1979,1563,242,43,164,Los Angeles Angels
+1979,1505,290,33,127,Chicago White Sox
+1979,1494,250,43,135,Chicago Cubs
+1979,1445,266,31,132,Cincinnati Reds
+1979,1388,206,29,138,Cleveland Indians
+1979,1446,221,35,164,Detroit Tigers
+1979,1382,224,52,49,Houston Astros
+1979,1596,286,79,116,Kansas City Royals
+1979,1443,220,24,183,Los Angeles Dodgers
+1979,1544,256,46,112,Minnesota Twins
+1979,1552,291,41,185,Milwaukee Brewers
+1979,1445,273,42,143,Washington Nationals
+1979,1443,226,40,150,New York Yankees
+1979,1399,255,41,74,New York Mets
+1979,1276,188,32,108,Oakland Athletics
+1979,1453,250,53,119,Philadelphia Phillies
+1979,1541,264,52,148,Pittsburgh Pirates
+1979,1316,193,53,93,San Diego Padres
+1979,1490,250,52,132,Seattle Mariners
+1979,1328,192,36,125,San Francisco Giants
+1979,1594,279,63,100,St. Louis Cardinals
+1979,1549,252,26,140,Texas Rangers
+1979,1362,253,34,95,Toronto Blue Jays
+1980,1352,226,22,144,Atlanta Braves
+1980,1523,258,29,156,Baltimore Orioles
+1980,1588,297,36,162,Boston Red Sox
+1980,1442,236,32,106,Los Angeles Angels
+1980,1408,255,38,91,Chicago White Sox
+1980,1411,251,35,107,Chicago Cubs
+1980,1445,256,45,113,Cincinnati Reds
+1980,1517,221,40,89,Cleveland Indians
+1980,1543,232,53,143,Detroit Tigers
+1980,1455,231,67,75,Houston Astros
+1980,1633,266,59,115,Kansas City Royals
+1980,1462,209,24,148,Los Angeles Dodgers
+1980,1468,252,46,99,Minnesota Twins
+1980,1555,298,36,203,Milwaukee Brewers
+1980,1407,250,61,114,Washington Nationals
+1980,1484,239,34,189,New York Yankees
+1980,1407,218,41,61,New York Mets
+1980,1424,212,35,137,Oakland Athletics
+1980,1517,272,54,117,Philadelphia Phillies
+1980,1469,249,38,116,Pittsburgh Pirates
+1980,1410,195,43,67,San Diego Padres
+1980,1359,211,35,104,Seattle Mariners
+1980,1310,199,44,80,San Francisco Giants
+1980,1541,300,49,101,St. Louis Cardinals
+1980,1616,263,27,124,Texas Rangers
+1980,1398,249,53,126,Toronto Blue Jays
+1982,1411,215,22,146,Atlanta Braves
+1982,1478,259,27,179,Baltimore Orioles
+1982,1536,271,31,136,Boston Red Sox
+1982,1518,268,26,186,Los Angeles Angels
+1982,1523,266,52,136,Chicago White Sox
+1982,1436,239,46,102,Chicago Cubs
+1982,1375,228,34,82,Cincinnati Reds
+1982,1458,225,32,109,Cleveland Indians
+1982,1489,237,40,177,Detroit Tigers
+1982,1342,236,48,74,Houston Astros
+1982,1603,295,58,132,Kansas City Royals
+1982,1487,222,32,138,Los Angeles Dodgers
+1982,1427,234,44,148,Minnesota Twins
+1982,1599,277,41,216,Milwaukee Brewers
+1982,1454,270,38,133,Washington Nationals
+1982,1417,225,37,161,New York Yankees
+1982,1361,227,26,97,New York Mets
+1982,1286,211,27,149,Oakland Athletics
+1982,1417,245,25,112,Philadelphia Phillies
+1982,1535,272,40,134,Pittsburgh Pirates
+1982,1435,217,52,81,San Diego Padres
+1982,1431,259,33,130,Seattle Mariners
+1982,1393,213,30,133,San Francisco Giants
+1982,1439,239,52,67,St. Louis Cardinals
+1982,1354,204,26,115,Texas Rangers
+1982,1447,262,45,106,Toronto Blue Jays
+1983,1489,218,45,130,Atlanta Braves
+1983,1492,283,27,168,Baltimore Orioles
+1983,1512,287,32,142,Boston Red Sox
+1983,1467,241,22,154,Los Angeles Angels
+1983,1439,270,42,157,Chicago White Sox
+1983,1436,272,42,140,Chicago Cubs
+1983,1274,236,35,107,Cincinnati Reds
+1983,1451,249,31,86,Cleveland Indians
+1983,1530,283,53,156,Detroit Tigers
+1983,1412,239,60,97,Houston Astros
+1983,1515,273,54,109,Kansas City Royals
+1983,1358,197,34,146,Los Angeles Dodgers
+1983,1463,280,41,141,Minnesota Twins
+1983,1556,281,57,132,Milwaukee Brewers
+1983,1482,297,41,102,Washington Nationals
+1983,1535,269,40,153,New York Yankees
+1983,1314,172,26,112,New York Mets
+1983,1447,237,28,121,Oakland Athletics
+1983,1352,209,45,125,Philadelphia Phillies
+1983,1460,238,29,121,Pittsburgh Pirates
+1983,1384,207,34,93,San Diego Padres
+1983,1280,247,31,111,Seattle Mariners
+1983,1324,206,30,142,San Francisco Giants
+1983,1496,262,63,83,St. Louis Cardinals
+1983,1429,242,33,106,Texas Rangers
+1983,1546,268,58,167,Toronto Blue Jays
+1984,1338,234,27,111,Atlanta Braves
+1984,1374,234,23,160,Baltimore Orioles
+1984,1598,259,45,181,Boston Red Sox
+1984,1363,211,30,150,Los Angeles Angels
+1984,1360,225,38,172,Chicago White Sox
+1984,1415,240,47,136,Chicago Cubs
+1984,1342,238,30,106,Cincinnati Reds
+1984,1498,222,39,123,Cleveland Indians
+1984,1529,254,46,187,Detroit Tigers
+1984,1465,222,67,79,Houston Astros
+1984,1487,269,52,117,Kansas City Royals
+1984,1316,213,23,102,Los Angeles Dodgers
+1984,1473,259,33,114,Minnesota Twins
+1984,1446,232,36,96,Milwaukee Brewers
+1984,1367,242,36,96,Washington Nationals
+1984,1560,275,32,130,New York Yankees
+1984,1400,235,25,107,New York Mets
+1984,1415,257,29,158,Oakland Athletics
+1984,1494,248,51,147,Philadelphia Phillies
+1984,1412,237,33,98,Pittsburgh Pirates
+1984,1425,207,42,109,San Diego Padres
+1984,1429,244,34,129,Seattle Mariners
+1984,1499,229,26,112,San Francisco Giants
+1984,1369,225,44,75,St. Louis Cardinals
+1984,1452,227,29,120,Texas Rangers
+1984,1555,275,68,143,Toronto Blue Jays
+1985,1359,213,28,126,Atlanta Braves
+1985,1451,234,22,214,Baltimore Orioles
+1985,1615,292,31,162,Boston Red Sox
+1985,1364,215,31,153,Los Angeles Angels
+1985,1386,247,37,146,Chicago White Sox
+1985,1397,239,28,150,Chicago Cubs
+1985,1385,249,34,114,Cincinnati Reds
+1985,1465,254,31,116,Cleveland Indians
+1985,1413,254,45,202,Detroit Tigers
+1985,1457,261,42,121,Houston Astros
+1985,1384,261,49,154,Kansas City Royals
+1985,1434,226,28,129,Los Angeles Dodgers
+1985,1453,282,41,141,Minnesota Twins
+1985,1467,250,44,101,Milwaukee Brewers
+1985,1342,242,49,118,Washington Nationals
+1985,1458,272,31,176,New York Yankees
+1985,1425,239,35,134,New York Mets
+1985,1475,230,34,155,Oakland Athletics
+1985,1343,238,47,141,Philadelphia Phillies
+1985,1340,251,28,80,Pittsburgh Pirates
+1985,1405,241,28,109,San Diego Padres
+1985,1410,277,38,171,Seattle Mariners
+1985,1263,217,31,115,San Francisco Giants
+1985,1446,245,59,87,St. Louis Cardinals
+1985,1359,213,41,129,Texas Rangers
+1985,1482,281,53,158,Toronto Blue Jays
+1986,1348,241,24,138,Atlanta Braves
+1986,1425,223,13,169,Baltimore Orioles
+1986,1488,320,21,144,Boston Red Sox
+1986,1387,236,36,167,Los Angeles Angels
+1986,1335,197,34,121,Chicago White Sox
+1986,1409,258,27,155,Chicago Cubs
+1986,1404,237,35,144,Cincinnati Reds
+1986,1620,270,45,157,Cleveland Indians
+1986,1447,234,30,198,Detroit Tigers
+1986,1388,244,32,125,Houston Astros
+1986,1403,264,45,137,Kansas City Royals
+1986,1373,232,14,130,Los Angeles Dodgers
+1986,1446,257,39,196,Minnesota Twins
+1986,1393,255,38,127,Milwaukee Brewers
+1986,1401,255,50,110,Washington Nationals
+1986,1512,275,23,188,New York Yankees
+1986,1462,261,31,148,New York Mets
+1986,1370,213,25,163,Oakland Athletics
+1986,1386,266,39,154,Philadelphia Phillies
+1986,1366,273,33,111,Pittsburgh Pirates
+1986,1442,239,25,136,San Diego Padres
+1986,1392,243,41,158,Seattle Mariners
+1986,1394,269,29,114,San Francisco Giants
+1986,1270,216,48,58,St. Louis Cardinals
+1986,1479,248,43,184,Texas Rangers
+1986,1540,285,35,181,Toronto Blue Jays
+1987,1401,284,24,152,Atlanta Braves
+1987,1437,219,20,211,Baltimore Orioles
+1987,1554,273,26,174,Boston Red Sox
+1987,1406,257,26,172,Los Angeles Angels
+1987,1427,283,36,173,Chicago White Sox
+1987,1475,244,33,209,Chicago Cubs
+1987,1478,262,29,192,Cincinnati Reds
+1987,1476,267,30,187,Cleveland Indians
+1987,1535,274,32,225,Detroit Tigers
+1987,1386,238,28,122,Houston Astros
+1987,1443,239,40,168,Kansas City Royals
+1987,1389,236,23,125,Los Angeles Dodgers
+1987,1422,258,35,196,Minnesota Twins
+1987,1552,272,46,163,Milwaukee Brewers
+1987,1467,310,39,120,Washington Nationals
+1987,1445,239,16,196,New York Yankees
+1987,1499,287,34,192,New York Mets
+1987,1432,263,33,199,Oakland Athletics
+1987,1390,248,51,169,Philadelphia Phillies
+1987,1464,282,45,131,Pittsburgh Pirates
+1987,1419,209,48,113,San Diego Padres
+1987,1499,282,48,161,Seattle Mariners
+1987,1458,274,32,205,San Francisco Giants
+1987,1449,252,49,94,St. Louis Cardinals
+1987,1478,264,35,194,Texas Rangers
+1987,1514,277,38,215,Toronto Blue Jays
+1988,1319,228,28,96,Atlanta Braves
+1988,1275,199,20,137,Baltimore Orioles
+1988,1569,310,39,124,Boston Red Sox
+1988,1458,258,31,124,Los Angeles Angels
+1988,1327,224,35,132,Chicago White Sox
+1988,1481,262,46,113,Chicago Cubs
+1988,1334,246,25,122,Cincinnati Reds
+1988,1435,235,28,134,Cleveland Indians
+1988,1358,213,28,143,Detroit Tigers
+1988,1338,239,31,96,Houston Astros
+1988,1419,275,40,121,Kansas City Royals
+1988,1346,217,25,99,Los Angeles Dodgers
+1988,1508,294,31,151,Minnesota Twins
+1988,1409,258,26,113,Milwaukee Brewers
+1988,1400,260,48,107,Washington Nationals
+1988,1469,272,12,148,New York Yankees
+1988,1387,251,24,152,New York Mets
+1988,1474,251,22,156,Oakland Athletics
+1988,1294,246,31,106,Philadelphia Phillies
+1988,1327,240,45,110,Pittsburgh Pirates
+1988,1325,205,35,94,San Diego Padres
+1988,1397,271,27,148,Seattle Mariners
+1988,1353,227,44,113,San Francisco Giants
+1988,1373,207,33,71,St. Louis Cardinals
+1988,1378,227,39,112,Texas Rangers
+1988,1491,271,47,158,Toronto Blue Jays
+1989,1281,201,22,128,Atlanta Braves
+1989,1369,238,33,129,Baltimore Orioles
+1989,1571,326,30,108,Boston Red Sox
+1989,1422,208,37,145,Los Angeles Angels
+1989,1493,262,36,94,Chicago White Sox
+1989,1438,235,45,124,Chicago Cubs
+1989,1362,243,28,128,Cincinnati Reds
+1989,1340,221,26,127,Cleveland Indians
+1989,1315,198,24,116,Detroit Tigers
+1989,1316,239,28,97,Houston Astros
+1989,1428,227,41,101,Kansas City Royals
+1989,1313,241,17,89,Los Angeles Dodgers
+1989,1542,278,35,117,Minnesota Twins
+1989,1415,235,32,126,Milwaukee Brewers
+1989,1353,267,30,100,Washington Nationals
+1989,1470,229,23,130,New York Yankees
+1989,1351,280,21,147,New York Mets
+1989,1414,220,25,127,Oakland Athletics
+1989,1324,215,36,123,Philadelphia Phillies
+1989,1334,263,53,95,Pittsburgh Pirates
+1989,1360,215,32,120,San Diego Padres
+1989,1417,237,29,134,Seattle Mariners
+1989,1365,241,52,141,San Francisco Giants
+1989,1418,263,47,73,St. Louis Cardinals
+1989,1433,260,46,122,Texas Rangers
+1989,1449,265,40,142,Toronto Blue Jays
+1990,1376,263,26,162,Atlanta Braves
+1990,1328,234,22,132,Baltimore Orioles
+1990,1502,298,31,106,Boston Red Sox
+1990,1448,237,27,147,Los Angeles Angels
+1990,1393,251,44,106,Chicago White Sox
+1990,1474,240,36,136,Chicago Cubs
+1990,1466,284,40,125,Cincinnati Reds
+1990,1465,266,41,110,Cleveland Indians
+1990,1418,241,32,172,Detroit Tigers
+1990,1301,209,32,94,Houston Astros
+1990,1465,316,44,100,Kansas City Royals
+1990,1436,222,27,129,Los Angeles Dodgers
+1990,1458,281,39,100,Minnesota Twins
+1990,1408,247,36,128,Milwaukee Brewers
+1990,1363,227,43,114,Washington Nationals
+1990,1322,208,19,147,New York Yankees
+1990,1410,278,21,172,New York Mets
+1990,1379,209,22,164,Oakland Athletics
+1990,1410,237,27,103,Philadelphia Phillies
+1990,1395,288,42,138,Pittsburgh Pirates
+1990,1429,243,35,123,San Diego Padres
+1990,1419,251,26,107,Seattle Mariners
+1990,1459,221,35,152,San Francisco Giants
+1990,1398,255,41,73,St. Louis Cardinals
+1990,1416,257,27,110,Texas Rangers
+1990,1479,263,50,167,Toronto Blue Jays
+1991,1407,255,30,141,Atlanta Braves
+1991,1421,256,29,170,Baltimore Orioles
+1991,1486,305,25,126,Boston Red Sox
+1991,1396,245,29,115,Los Angeles Angels
+1991,1464,226,39,139,Chicago White Sox
+1991,1395,232,26,159,Chicago Cubs
+1991,1419,250,27,164,Cincinnati Reds
+1991,1390,236,26,79,Cleveland Indians
+1991,1372,259,26,209,Detroit Tigers
+1991,1345,240,43,79,Houston Astros
+1991,1475,290,41,117,Kansas City Royals
+1991,1366,191,29,108,Los Angeles Dodgers
+1991,1557,270,42,140,Minnesota Twins
+1991,1523,247,53,116,Milwaukee Brewers
+1991,1329,236,42,95,Washington Nationals
+1991,1418,249,19,147,New York Yankees
+1991,1305,250,24,117,New York Mets
+1991,1342,246,19,159,Oakland Athletics
+1991,1332,248,33,111,Philadelphia Phillies
+1991,1433,259,50,126,Pittsburgh Pirates
+1991,1321,204,36,121,San Diego Padres
+1991,1400,268,29,126,Seattle Mariners
+1991,1345,215,48,141,San Francisco Giants
+1991,1366,239,53,68,St. Louis Cardinals
+1991,1539,288,31,177,Texas Rangers
+1991,1412,295,45,133,Toronto Blue Jays
+1992,1391,223,48,138,Atlanta Braves
+1992,1423,243,36,148,Baltimore Orioles
+1992,1343,259,21,84,Boston Red Sox
+1992,1306,202,20,88,Los Angeles Angels
+1992,1434,269,36,110,Chicago White Sox
+1992,1420,221,41,104,Chicago Cubs
+1992,1418,281,44,99,Cincinnati Reds
+1992,1495,227,24,127,Cleveland Indians
+1992,1411,256,16,182,Detroit Tigers
+1992,1350,255,38,96,Houston Astros
+1992,1411,284,42,75,Kansas City Royals
+1992,1333,201,34,72,Los Angeles Dodgers
+1992,1544,275,27,104,Minnesota Twins
+1992,1477,272,35,82,Milwaukee Brewers
+1992,1381,263,37,102,Washington Nationals
+1992,1462,281,18,163,New York Yankees
+1992,1254,259,17,93,New York Mets
+1992,1389,219,24,142,Oakland Athletics
+1992,1392,255,36,118,Philadelphia Phillies
+1992,1409,272,54,106,Pittsburgh Pirates
+1992,1396,255,30,135,San Diego Padres
+1992,1466,278,24,149,Seattle Mariners
+1992,1330,220,36,105,San Francisco Giants
+1992,1464,262,44,94,St. Louis Cardinals
+1992,1387,266,23,159,Texas Rangers
+1992,1458,265,40,163,Toronto Blue Jays
+1993,1444,239,29,169,Atlanta Braves
+1993,1470,287,24,157,Baltimore Orioles
+1993,1451,319,29,114,Boston Red Sox
+1993,1399,259,24,114,Los Angeles Angels
+1993,1454,228,44,162,Chicago White Sox
+1993,1521,259,32,161,Chicago Cubs
+1993,1457,261,28,137,Cincinnati Reds
+1993,1547,264,31,141,Cleveland Indians
+1993,1507,278,59,142,Colorado Rockies
+1993,1546,282,38,178,Detroit Tigers
+1993,1356,197,31,94,Miami Marlins
+1993,1459,288,37,138,Houston Astros
+1993,1455,294,35,125,Kansas City Royals
+1993,1458,234,28,130,Los Angeles Dodgers
+1993,1480,261,27,121,Minnesota Twins
+1993,1426,240,25,125,Milwaukee Brewers
+1993,1410,270,36,122,Washington Nationals
+1993,1568,294,24,178,New York Yankees
+1993,1350,228,37,158,New York Mets
+1993,1408,260,21,158,Oakland Athletics
+1993,1555,297,51,156,Philadelphia Phillies
+1993,1482,267,50,110,Pittsburgh Pirates
+1993,1386,239,28,153,San Diego Padres
+1993,1429,272,24,161,Seattle Mariners
+1993,1534,269,33,168,San Francisco Giants
+1993,1508,262,34,118,St. Louis Cardinals
+1993,1472,284,39,181,Texas Rangers
+1993,1556,317,42,159,Toronto Blue Jays
+1996,1514,264,28,197,Atlanta Braves
+1996,1557,299,29,257,Baltimore Orioles
+1996,1631,308,31,209,Boston Red Sox
+1996,1571,256,24,192,Los Angeles Angels
+1996,1586,284,33,195,Chicago White Sox
+1996,1388,267,19,175,Chicago Cubs
+1996,1398,259,36,191,Cincinnati Reds
+1996,1665,335,23,218,Cleveland Indians
+1996,1607,297,37,221,Colorado Rockies
+1996,1413,257,21,204,Detroit Tigers
+1996,1413,240,30,150,Miami Marlins
+1996,1445,297,29,129,Houston Astros
+1996,1477,286,38,123,Kansas City Royals
+1996,1396,215,33,150,Los Angeles Dodgers
+1996,1633,332,47,118,Minnesota Twins
+1996,1578,304,40,178,Milwaukee Brewers
+1996,1441,297,27,148,Washington Nationals
+1996,1621,293,28,162,New York Yankees
+1996,1515,267,47,147,New York Mets
+1996,1492,283,21,243,Oakland Athletics
+1996,1405,249,39,132,Philadelphia Phillies
+1996,1509,319,33,138,Pittsburgh Pirates
+1996,1499,285,24,147,San Diego Padres
+1996,1625,343,19,245,Seattle Mariners
+1996,1400,245,21,153,San Francisco Giants
+1996,1468,281,31,142,St. Louis Cardinals
+1996,1622,323,32,221,Texas Rangers
+1996,1451,302,35,177,Toronto Blue Jays
+1997,1531,279,25,161,Los Angeles Angels
+1997,1490,268,37,174,Atlanta Braves
+1997,1498,264,22,196,Baltimore Orioles
+1997,1684,373,32,185,Boston Red Sox
+1997,1498,260,28,158,Chicago White Sox
+1997,1444,269,39,127,Chicago Cubs
+1997,1386,269,27,142,Cincinnati Reds
+1997,1589,301,22,220,Cleveland Indians
+1997,1611,269,40,239,Colorado Rockies
+1997,1415,268,32,176,Detroit Tigers
+1997,1410,272,28,136,Miami Marlins
+1997,1427,314,40,133,Houston Astros
+1997,1478,256,35,158,Kansas City Royals
+1997,1488,242,33,174,Los Angeles Dodgers
+1997,1522,305,40,132,Minnesota Twins
+1997,1415,294,27,135,Milwaukee Brewers
+1997,1423,339,34,172,Washington Nationals
+1997,1636,325,23,161,New York Yankees
+1997,1448,274,28,153,New York Mets
+1997,1451,274,23,197,Oakland Athletics
+1997,1390,290,35,116,Philadelphia Phillies
+1997,1440,291,52,129,Pittsburgh Pirates
+1997,1519,275,16,152,San Diego Padres
+1997,1574,312,21,264,Seattle Mariners
+1997,1415,266,37,172,San Francisco Giants
+1997,1409,269,39,144,St. Louis Cardinals
+1997,1547,311,27,187,Texas Rangers
+1997,1333,275,41,147,Toronto Blue Jays
+1998,1530,314,27,147,Los Angeles Angels
+1998,1353,235,46,159,Arizona Diamondbacks
+1998,1489,297,26,215,Atlanta Braves
+1998,1520,303,11,214,Baltimore Orioles
+1998,1568,338,35,205,Boston Red Sox
+1998,1516,291,38,198,Chicago White Sox
+1998,1494,250,34,212,Chicago Cubs
+1998,1441,298,28,138,Cincinnati Reds
+1998,1530,334,30,198,Cleveland Indians
+1998,1640,333,36,183,Colorado Rockies
+1998,1494,306,29,165,Detroit Tigers
+1998,1381,277,36,114,Miami Marlins
+1998,1578,326,28,166,Houston Astros
+1998,1459,274,40,134,Kansas City Royals
+1998,1374,209,27,159,Los Angeles Dodgers
+1998,1439,266,17,152,Milwaukee Brewers
+1998,1499,285,32,115,Minnesota Twins
+1998,1348,280,32,147,Washington Nationals
+1998,1625,290,31,207,New York Yankees
+1998,1425,289,24,136,New York Mets
+1998,1413,295,13,149,Oakland Athletics
+1998,1482,286,36,126,Philadelphia Phillies
+1998,1395,271,35,107,Pittsburgh Pirates
+1998,1390,292,30,167,San Diego Padres
+1998,1553,321,28,234,Seattle Mariners
+1998,1540,292,26,161,San Francisco Giants
+1998,1444,292,30,223,St. Louis Cardinals
+1998,1450,267,43,111,Tampa Bay Rays
+1998,1637,314,32,201,Texas Rangers
+1998,1482,316,19,221,Toronto Blue Jays
+1999,1404,248,22,158,Los Angeles Angels
+1999,1566,289,46,216,Arizona Diamondbacks
+1999,1481,309,23,197,Atlanta Braves
+1999,1572,299,21,203,Baltimore Orioles
+1999,1551,334,42,176,Boston Red Sox
+1999,1563,298,37,162,Chicago White Sox
+1999,1411,255,35,189,Chicago Cubs
+1999,1536,312,37,209,Cincinnati Reds
+1999,1629,309,32,209,Cleveland Indians
+1999,1644,305,39,223,Colorado Rockies
+1999,1433,289,34,212,Detroit Tigers
+1999,1465,266,44,128,Miami Marlins
+1999,1463,293,23,168,Houston Astros
+1999,1584,294,52,151,Kansas City Royals
+1999,1480,253,23,187,Los Angeles Dodgers
+1999,1524,299,30,165,Milwaukee Brewers
+1999,1450,285,30,105,Minnesota Twins
+1999,1473,320,47,163,Washington Nationals
+1999,1568,302,36,193,New York Yankees
+1999,1553,297,14,181,New York Mets
+1999,1430,287,20,235,Oakland Athletics
+1999,1539,302,44,161,Philadelphia Phillies
+1999,1417,282,40,171,Pittsburgh Pirates
+1999,1360,256,22,153,San Diego Padres
+1999,1499,263,21,244,Seattle Mariners
+1999,1507,307,18,188,San Francisco Giants
+1999,1461,274,27,194,St. Louis Cardinals
+1999,1531,272,29,145,Tampa Bay Rays
+1999,1653,304,29,230,Texas Rangers
+1999,1580,337,14,212,Toronto Blue Jays
+2000,1574,309,34,236,Los Angeles Angels
+2000,1466,282,44,179,Arizona Diamondbacks
+2000,1490,274,26,179,Atlanta Braves
+2000,1508,310,22,184,Baltimore Orioles
+2000,1503,316,32,167,Boston Red Sox
+2000,1615,325,33,216,Chicago White Sox
+2000,1426,272,23,183,Chicago Cubs
+2000,1545,302,36,200,Cincinnati Reds
+2000,1639,310,30,221,Cleveland Indians
+2000,1664,320,53,161,Colorado Rockies
+2000,1553,307,41,177,Detroit Tigers
+2000,1441,274,29,160,Miami Marlins
+2000,1547,289,36,249,Houston Astros
+2000,1644,281,27,150,Kansas City Royals
+2000,1408,265,28,211,Los Angeles Dodgers
+2000,1366,297,25,177,Milwaukee Brewers
+2000,1516,325,49,116,Minnesota Twins
+2000,1475,310,35,178,Washington Nationals
+2000,1541,294,25,205,New York Yankees
+2000,1445,281,20,198,New York Mets
+2000,1501,281,23,239,Oakland Athletics
+2000,1386,304,40,144,Philadelphia Phillies
+2000,1506,320,31,168,Pittsburgh Pirates
+2000,1413,279,37,157,San Diego Padres
+2000,1481,300,26,198,Seattle Mariners
+2000,1535,304,44,226,San Francisco Giants
+2000,1481,259,25,235,St. Louis Cardinals
+2000,1414,253,22,162,Tampa Bay Rays
+2000,1601,330,35,173,Texas Rangers
+2000,1562,328,21,244,Toronto Blue Jays
+2001,1447,275,26,158,Los Angeles Angels
+2001,1494,284,35,208,Arizona Diamondbacks
+2001,1432,263,24,174,Atlanta Braves
+2001,1359,262,24,136,Baltimore Orioles
+2001,1493,316,29,198,Boston Red Sox
+2001,1463,300,29,214,Chicago White Sox
+2001,1409,268,32,194,Chicago Cubs
+2001,1464,304,22,176,Cincinnati Reds
+2001,1559,294,37,212,Cleveland Indians
+2001,1663,324,61,213,Colorado Rockies
+2001,1439,291,60,139,Detroit Tigers
+2001,1461,325,30,166,Miami Marlins
+2001,1500,313,29,208,Houston Astros
+2001,1503,277,37,152,Kansas City Royals
+2001,1399,264,27,206,Los Angeles Dodgers
+2001,1378,273,30,209,Milwaukee Brewers
+2001,1514,328,38,164,Minnesota Twins
+2001,1361,320,28,131,Washington Nationals
+2001,1488,289,20,203,New York Yankees
+2001,1361,273,18,147,New York Mets
+2001,1469,334,22,199,Oakland Athletics
+2001,1431,295,29,164,Philadelphia Phillies
+2001,1333,256,25,161,Pittsburgh Pirates
+2001,1379,273,26,161,San Diego Padres
+2001,1637,310,38,169,Seattle Mariners
+2001,1493,304,40,235,San Francisco Giants
+2001,1469,274,32,199,St. Louis Cardinals
+2001,1426,311,21,121,Tampa Bay Rays
+2001,1566,326,23,246,Texas Rangers
+2001,1489,287,36,195,Toronto Blue Jays
+2002,1603,333,32,152,Los Angeles Angels
+2002,1471,283,41,165,Arizona Diamondbacks
+2002,1428,280,25,164,Atlanta Braves
+2002,1353,311,27,165,Baltimore Orioles
+2002,1560,348,33,177,Boston Red Sox
+2002,1475,289,29,217,Chicago White Sox
+2002,1351,259,29,200,Chicago Cubs
+2002,1386,297,21,169,Cincinnati Reds
+2002,1349,255,26,192,Cleveland Indians
+2002,1508,283,41,152,Colorado Rockies
+2002,1340,265,37,124,Detroit Tigers
+2002,1433,280,32,146,Miami Marlins
+2002,1441,291,32,167,Houston Astros
+2002,1415,285,42,140,Kansas City Royals
+2002,1464,286,29,155,Los Angeles Dodgers
+2002,1369,269,29,139,Milwaukee Brewers
+2002,1518,348,36,167,Minnesota Twins
+2002,1432,300,36,162,Washington Nationals
+2002,1540,314,12,223,New York Yankees
+2002,1409,238,22,160,New York Mets
+2002,1450,279,28,205,Oakland Athletics
+2002,1428,325,41,165,Philadelphia Phillies
+2002,1300,263,20,142,Pittsburgh Pirates
+2002,1393,243,29,136,San Diego Padres
+2002,1531,285,31,152,Seattle Mariners
+2002,1465,300,35,198,San Francisco Giants
+2002,1475,285,26,175,St. Louis Cardinals
+2002,1418,297,35,133,Tampa Bay Rays
+2002,1510,304,27,230,Texas Rangers
+2002,1457,305,38,187,Toronto Blue Jays
+2003,1473,276,33,150,Los Angeles Angels
+2003,1467,303,47,152,Arizona Diamondbacks
+2003,1608,321,31,235,Atlanta Braves
+2003,1516,277,24,152,Baltimore Orioles
+2003,1667,371,40,238,Boston Red Sox
+2003,1445,303,19,220,Chicago White Sox
+2003,1431,302,24,172,Chicago Cubs
+2003,1349,239,21,182,Cincinnati Reds
+2003,1413,296,26,158,Cleveland Indians
+2003,1472,330,31,198,Colorado Rockies
+2003,1312,201,39,153,Detroit Tigers
+2003,1459,292,44,157,Miami Marlins
+2003,1466,308,30,191,Houston Astros
+2003,1526,288,39,162,Kansas City Royals
+2003,1328,260,25,124,Los Angeles Dodgers
+2003,1423,266,24,196,Milwaukee Brewers
+2003,1567,318,45,155,Minnesota Twins
+2003,1404,294,25,144,Washington Nationals
+2003,1518,304,14,230,New York Yankees
+2003,1317,262,24,124,New York Mets
+2003,1398,317,24,176,Oakland Athletics
+2003,1448,325,27,166,Philadelphia Phillies
+2003,1492,275,45,163,Pittsburgh Pirates
+2003,1442,257,32,128,San Diego Padres
+2003,1509,290,33,139,Seattle Mariners
+2003,1440,281,29,180,San Francisco Giants
+2003,1580,342,32,196,St. Louis Cardinals
+2003,1501,298,38,137,Tampa Bay Rays
+2003,1506,274,36,239,Texas Rangers
+2003,1580,357,33,190,Toronto Blue Jays
+2004,1603,272,37,162,Los Angeles Angels
+2004,1401,295,38,135,Arizona Diamondbacks
+2004,1503,304,37,178,Atlanta Braves
+2004,1614,319,18,169,Baltimore Orioles
+2004,1613,373,25,222,Boston Red Sox
+2004,1481,284,19,242,Chicago White Sox
+2004,1508,308,29,235,Chicago Cubs
+2004,1380,287,28,194,Cincinnati Reds
+2004,1565,345,29,184,Cleveland Indians
+2004,1531,331,34,202,Colorado Rockies
+2004,1531,284,54,201,Detroit Tigers
+2004,1447,275,32,148,Miami Marlins
+2004,1458,294,36,187,Houston Astros
+2004,1432,261,29,150,Kansas City Royals
+2004,1450,226,30,203,Los Angeles Dodgers
+2004,1358,295,32,135,Milwaukee Brewers
+2004,1494,310,24,191,Minnesota Twins
+2004,1361,276,27,151,Washington Nationals
+2004,1483,281,20,242,New York Yankees
+2004,1376,289,20,185,New York Mets
+2004,1545,336,15,189,Oakland Athletics
+2004,1505,303,23,215,Philadelphia Phillies
+2004,1428,267,39,142,Pittsburgh Pirates
+2004,1521,304,32,139,San Diego Padres
+2004,1544,276,20,136,Seattle Mariners
+2004,1500,314,33,183,San Francisco Giants
+2004,1544,319,24,214,St. Louis Cardinals
+2004,1416,278,46,145,Tampa Bay Rays
+2004,1492,323,34,227,Texas Rangers
+2004,1438,290,34,145,Toronto Blue Jays
+2005,1419,291,27,191,Arizona Diamondbacks
+2005,1453,308,37,184,Atlanta Braves
+2005,1492,296,27,189,Baltimore Orioles
+2005,1579,339,21,199,Boston Red Sox
+2005,1450,253,23,200,Chicago White Sox
+2005,1506,323,23,194,Chicago Cubs
+2005,1453,335,15,222,Cincinnati Reds
+2005,1522,337,30,207,Cleveland Indians
+2005,1477,280,34,150,Colorado Rockies
+2005,1521,283,45,168,Detroit Tigers
+2005,1499,306,32,128,Miami Marlins
+2005,1400,281,32,161,Houston Astros
+2005,1445,289,34,126,Kansas City Royals
+2005,1520,278,30,147,Los Angeles Angels
+2005,1374,284,21,149,Los Angeles Dodgers
+2005,1413,327,19,175,Milwaukee Brewers
+2005,1441,269,32,134,Minnesota Twins
+2005,1552,259,16,229,New York Yankees
+2005,1421,279,32,175,New York Mets
+2005,1476,310,20,155,Oakland Athletics
+2005,1494,282,35,167,Philadelphia Phillies
+2005,1445,292,38,139,Pittsburgh Pirates
+2005,1416,269,39,130,San Diego Padres
+2005,1408,289,34,130,Seattle Mariners
+2005,1427,299,26,128,San Francisco Giants
+2005,1494,287,26,170,St. Louis Cardinals
+2005,1519,289,40,157,Tampa Bay Rays
+2005,1528,311,29,260,Texas Rangers
+2005,1480,307,39,136,Toronto Blue Jays
+2005,1367,311,32,117,Washington Nationals
+2006,1506,331,38,160,Arizona Diamondbacks
+2006,1510,312,26,222,Atlanta Braves
+2006,1556,288,20,164,Baltimore Orioles
+2006,1510,327,16,192,Boston Red Sox
+2006,1586,291,20,236,Chicago White Sox
+2006,1496,271,46,166,Chicago Cubs
+2006,1419,291,12,217,Cincinnati Reds
+2006,1576,351,27,196,Cleveland Indians
+2006,1504,325,54,157,Colorado Rockies
+2006,1548,294,40,203,Detroit Tigers
+2006,1454,309,42,182,Miami Marlins
+2006,1407,275,27,174,Houston Astros
+2006,1515,335,37,124,Kansas City Royals
+2006,1539,309,29,159,Los Angeles Angels
+2006,1552,307,58,153,Los Angeles Dodgers
+2006,1400,301,20,180,Milwaukee Brewers
+2006,1608,275,34,143,Minnesota Twins
+2006,1608,327,21,210,New York Yankees
+2006,1469,323,41,200,New York Mets
+2006,1429,266,22,175,Oakland Athletics
+2006,1518,294,41,216,Philadelphia Phillies
+2006,1462,286,17,141,Pittsburgh Pirates
+2006,1465,298,38,161,San Diego Padres
+2006,1540,266,42,172,Seattle Mariners
+2006,1418,297,52,163,San Francisco Giants
+2006,1484,292,27,184,St. Louis Cardinals
+2006,1395,267,33,190,Tampa Bay Rays
+2006,1571,357,23,183,Texas Rangers
+2006,1591,348,27,199,Toronto Blue Jays
+2006,1437,322,22,164,Washington Nationals
+2007,1350,286,40,171,Arizona Diamondbacks
+2007,1562,328,27,176,Atlanta Braves
+2007,1529,306,30,142,Baltimore Orioles
+2007,1561,352,35,166,Boston Red Sox
+2007,1341,249,20,190,Chicago White Sox
+2007,1530,340,28,151,Chicago Cubs
+2007,1496,293,23,204,Cincinnati Reds
+2007,1504,305,27,178,Cleveland Indians
+2007,1591,313,36,171,Colorado Rockies
+2007,1652,352,50,177,Detroit Tigers
+2007,1504,340,38,201,Miami Marlins
+2007,1457,293,30,167,Houston Astros
+2007,1447,300,46,102,Kansas City Royals
+2007,1578,324,23,123,Los Angeles Angels
+2007,1544,276,35,129,Los Angeles Dodgers
+2007,1455,310,37,231,Milwaukee Brewers
+2007,1460,273,36,118,Minnesota Twins
+2007,1656,326,32,201,New York Yankees
+2007,1543,294,27,177,New York Mets
+2007,1430,295,16,171,Oakland Athletics
+2007,1558,326,41,213,Philadelphia Phillies
+2007,1463,322,31,148,Pittsburgh Pirates
+2007,1408,322,31,171,San Diego Padres
+2007,1629,284,22,153,Seattle Mariners
+2007,1407,267,37,131,San Francisco Giants
+2007,1513,279,13,141,St. Louis Cardinals
+2007,1500,291,36,187,Tampa Bay Rays
+2007,1460,298,36,179,Texas Rangers
+2007,1434,344,24,165,Toronto Blue Jays
+2007,1415,309,31,123,Washington Nationals
+2008,1355,318,47,159,Arizona Diamondbacks
+2008,1514,316,33,130,Atlanta Braves
+2008,1486,322,30,172,Baltimore Orioles
+2008,1565,353,33,173,Boston Red Sox
+2008,1458,296,13,235,Chicago White Sox
+2008,1552,329,21,184,Chicago Cubs
+2008,1351,269,24,187,Cincinnati Reds
+2008,1455,339,22,171,Cleveland Indians
+2008,1462,310,28,160,Colorado Rockies
+2008,1529,293,41,200,Detroit Tigers
+2008,1397,302,28,208,Miami Marlins
+2008,1432,284,22,167,Houston Astros
+2008,1507,303,28,120,Kansas City Royals
+2008,1486,274,25,159,Los Angeles Angels
+2008,1455,271,29,137,Los Angeles Dodgers
+2008,1398,324,35,198,Milwaukee Brewers
+2008,1572,298,49,111,Minnesota Twins
+2008,1512,289,20,180,New York Yankees
+2008,1491,274,38,172,New York Mets
+2008,1318,270,23,125,Oakland Athletics
+2008,1407,291,36,214,Philadelphia Phillies
+2008,1454,314,21,153,Pittsburgh Pirates
+2008,1390,264,27,154,San Diego Padres
+2008,1498,285,20,124,Seattle Mariners
+2008,1452,311,37,94,San Francisco Giants
+2008,1585,283,26,174,St. Louis Cardinals
+2008,1443,284,37,180,Tampa Bay Rays
+2008,1619,376,35,194,Texas Rangers
+2008,1453,303,32,126,Toronto Blue Jays
+2008,1376,269,26,117,Washington Nationals
+2009,1408,307,45,173,Arizona Diamondbacks
+2009,1459,300,20,149,Atlanta Braves
+2009,1508,307,19,160,Baltimore Orioles
+2009,1495,335,25,212,Boston Red Sox
+2009,1410,246,20,184,Chicago White Sox
+2009,1398,293,29,161,Chicago Cubs
+2009,1349,280,25,158,Cincinnati Reds
+2009,1468,314,28,161,Cleveland Indians
+2009,1408,300,50,190,Colorado Rockies
+2009,1443,245,35,183,Detroit Tigers
+2009,1493,296,25,159,Miami Marlins
+2009,1415,270,32,142,Houston Astros
+2009,1432,276,51,144,Kansas City Royals
+2009,1604,293,33,173,Los Angeles Angels
+2009,1511,278,39,145,Los Angeles Dodgers
+2009,1447,281,37,182,Milwaukee Brewers
+2009,1539,271,40,172,Minnesota Twins
+2009,1604,325,21,244,New York Yankees
+2009,1472,295,49,95,New York Mets
+2009,1464,307,21,135,Oakland Athletics
+2009,1439,312,35,224,Philadelphia Phillies
+2009,1364,289,34,125,Pittsburgh Pirates
+2009,1315,265,31,141,San Diego Padres
+2009,1430,280,19,160,Seattle Mariners
+2009,1411,275,43,122,San Francisco Giants
+2009,1436,294,29,160,St. Louis Cardinals
+2009,1434,297,36,199,Tampa Bay Rays
+2009,1436,296,27,224,Texas Rangers
+2009,1516,339,13,209,Toronto Blue Jays
+2009,1416,271,38,156,Washington Nationals
+2010,1366,301,34,180,Arizona Diamondbacks
+2010,1411,312,25,139,Atlanta Braves
+2010,1440,264,21,133,Baltimore Orioles
+2010,1511,358,22,211,Boston Red Sox
+2010,1467,263,21,177,Chicago White Sox
+2010,1414,298,27,149,Chicago Cubs
+2010,1515,293,30,188,Cincinnati Reds
+2010,1362,290,20,128,Cleveland Indians
+2010,1452,270,54,173,Colorado Rockies
+2010,1515,308,32,152,Detroit Tigers
+2010,1403,294,37,152,Miami Marlins
+2010,1348,252,25,108,Houston Astros
+2010,1534,279,31,121,Kansas City Royals
+2010,1363,276,19,155,Los Angeles Angels
+2010,1368,270,29,120,Los Angeles Dodgers
+2010,1471,293,33,182,Milwaukee Brewers
+2010,1521,318,41,142,Minnesota Twins
+2010,1485,275,32,201,New York Yankees
+2010,1361,266,40,128,New York Mets
+2010,1396,276,30,109,Oakland Athletics
+2010,1451,290,34,166,Philadelphia Phillies
+2010,1303,276,27,126,Pittsburgh Pirates
+2010,1338,236,24,132,San Diego Padres
+2010,1274,227,16,101,Seattle Mariners
+2010,1411,284,30,162,San Francisco Giants
+2010,1456,285,18,150,St. Louis Cardinals
+2010,1343,295,37,160,Tampa Bay Rays
+2010,1556,268,25,162,Texas Rangers
+2010,1364,319,21,257,Toronto Blue Jays
+2010,1355,250,31,149,Washington Nationals
+2011,1357,293,37,172,Arizona Diamondbacks
+2011,1345,244,16,173,Atlanta Braves
+2011,1434,273,13,191,Baltimore Orioles
+2011,1600,352,35,203,Boston Red Sox
+2011,1387,252,16,154,Chicago White Sox
+2011,1423,285,36,148,Chicago Cubs
+2011,1438,264,19,183,Cincinnati Reds
+2011,1380,290,26,154,Cleveland Indians
+2011,1429,274,40,163,Colorado Rockies
+2011,1540,297,34,169,Detroit Tigers
+2011,1358,274,30,149,Miami Marlins
+2011,1442,309,28,95,Houston Astros
+2011,1560,325,41,129,Kansas City Royals
+2011,1394,289,34,155,Los Angeles Angels
+2011,1395,237,28,117,Los Angeles Dodgers
+2011,1422,276,31,185,Milwaukee Brewers
+2011,1357,259,25,103,Minnesota Twins
+2011,1452,267,33,222,New York Yankees
+2011,1477,309,39,108,New York Mets
+2011,1330,280,29,114,Oakland Athletics
+2011,1409,258,38,153,Philadelphia Phillies
+2011,1325,277,35,107,Pittsburgh Pirates
+2011,1284,247,42,91,San Diego Padres
+2011,1263,253,22,109,Seattle Mariners
+2011,1327,282,24,121,San Francisco Giants
+2011,1513,308,22,162,St. Louis Cardinals
+2011,1324,273,37,172,Tampa Bay Rays
+2011,1599,310,32,210,Texas Rangers
+2011,1384,285,34,186,Toronto Blue Jays
+2011,1319,257,22,154,Washington Nationals
+2012,1416,307,33,165,Arizona Diamondbacks
+2012,1341,263,30,149,Atlanta Braves
+2012,1375,270,16,214,Baltimore Orioles
+2012,1459,339,16,165,Boston Red Sox
+2012,1409,228,29,211,Chicago White Sox
+2012,1297,265,36,137,Chicago Cubs
+2012,1377,296,30,172,Cincinnati Reds
+2012,1385,266,24,136,Cleveland Indians
+2012,1526,306,52,166,Colorado Rockies
+2012,1467,279,39,163,Detroit Tigers
+2012,1276,238,28,146,Houston Astros
+2012,1492,295,37,131,Kansas City Royals
+2012,1518,273,22,187,Los Angeles Angels
+2012,1369,269,23,116,Los Angeles Dodgers
+2012,1327,261,39,137,Miami Marlins
+2012,1442,300,39,202,Milwaukee Brewers
+2012,1448,270,30,131,Minnesota Twins
+2012,1462,280,13,245,New York Yankees
+2012,1357,286,21,139,New York Mets
+2012,1315,267,32,195,Oakland Athletics
+2012,1414,271,28,158,Philadelphia Phillies
+2012,1313,241,37,170,Pittsburgh Pirates
+2012,1339,272,43,121,San Diego Padres
+2012,1285,241,27,149,Seattle Mariners
+2012,1495,287,57,103,San Francisco Giants
+2012,1526,290,37,159,St. Louis Cardinals
+2012,1293,250,30,175,Tampa Bay Rays
+2012,1526,303,32,200,Texas Rangers
+2012,1346,247,22,198,Toronto Blue Jays
+2012,1468,301,25,194,Washington Nationals
+2013,1468,302,31,130,Arizona Diamondbacks
+2013,1354,247,21,181,Atlanta Braves
+2013,1460,298,14,212,Baltimore Orioles
+2013,1566,363,29,178,Boston Red Sox
+2013,1385,237,19,148,Chicago White Sox
+2013,1307,297,18,172,Chicago Cubs
+2013,1370,274,20,155,Cincinnati Reds
+2013,1391,290,23,171,Cleveland Indians
+2013,1511,283,36,159,Colorado Rockies
+2013,1625,292,23,176,Detroit Tigers
+2013,1307,266,16,148,Houston Astros
+2013,1443,254,34,112,Kansas City Royals
+2013,1476,270,39,164,Los Angeles Angels
+2013,1447,281,17,138,Los Angeles Dodgers
+2013,1257,219,31,95,Miami Marlins
+2013,1381,238,43,157,Milwaukee Brewers
+2013,1346,285,15,151,Minnesota Twins
+2013,1321,247,24,144,New York Yankees
+2013,1318,263,32,130,New York Mets
+2013,1403,301,25,186,Oakland Athletics
+2013,1355,255,32,140,Philadelphia Phillies
+2013,1346,273,35,161,Pittsburgh Pirates
+2013,1349,246,26,146,San Diego Padres
+2013,1318,249,17,188,Seattle Mariners
+2013,1446,280,35,107,San Francisco Giants
+2013,1494,322,20,125,St. Louis Cardinals
+2013,1421,296,23,165,Tampa Bay Rays
+2013,1465,262,23,176,Texas Rangers
+2013,1398,273,24,185,Toronto Blue Jays
+2013,1365,259,27,161,Washington Nationals
+2014,1379,259,47,118,Arizona Diamondbacks
+2014,1316,240,22,123,Atlanta Braves
+2014,1434,264,16,211,Baltimore Orioles
+2014,1355,282,20,123,Boston Red Sox
+2014,1400,279,32,155,Chicago White Sox
+2014,1315,270,31,157,Chicago Cubs
+2014,1282,254,20,131,Cincinnati Reds
+2014,1411,284,23,142,Cleveland Indians
+2014,1551,307,41,186,Colorado Rockies
+2014,1557,325,26,155,Detroit Tigers
+2014,1317,240,19,163,Houston Astros
+2014,1456,286,29,95,Kansas City Royals
+2014,1464,304,31,155,Los Angeles Angels
+2014,1476,302,38,134,Los Angeles Dodgers
+2014,1399,254,36,122,Miami Marlins
+2014,1366,297,28,150,Milwaukee Brewers
+2014,1412,316,27,128,Minnesota Twins
+2014,1349,247,26,147,New York Yankees
+2014,1306,275,19,125,New York Mets
+2014,1354,253,33,146,Oakland Athletics
+2014,1356,251,27,125,Philadelphia Phillies
+2014,1436,275,30,156,Pittsburgh Pirates
+2014,1199,224,30,109,San Diego Padres
+2014,1328,247,32,136,Seattle Mariners
+2014,1407,257,42,132,San Francisco Giants
+2014,1371,275,21,105,St. Louis Cardinals
+2014,1361,263,24,117,Tampa Bay Rays
+2014,1400,260,28,111,Texas Rangers
+2014,1435,282,24,177,Toronto Blue Jays
+2014,1403,265,27,152,Washington Nationals
+2015,1494,289,48,154,Arizona Diamondbacks
+2015,1361,251,18,100,Atlanta Braves
+2015,1370,246,20,217,Baltimore Orioles
+2015,1495,294,33,161,Boston Red Sox
+2015,1381,260,27,136,Chicago White Sox
+2015,1341,272,30,171,Chicago Cubs
+2015,1382,257,27,167,Cincinnati Reds
+2015,1395,303,29,141,Cleveland Indians
+2015,1479,274,49,186,Colorado Rockies
+2015,1515,289,49,151,Detroit Tigers
+2015,1363,278,26,230,Houston Astros
+2015,1497,300,42,139,Kansas City Royals
+2015,1331,243,21,176,Los Angeles Angels
+2015,1346,263,26,187,Los Angeles Dodgers
+2015,1420,236,40,120,Miami Marlins
+2015,1378,274,34,145,Milwaukee Brewers
+2015,1349,277,44,156,Minnesota Twins
+2015,1397,272,19,212,New York Yankees
+2015,1351,295,17,177,New York Mets
+2015,1405,277,46,146,Oakland Athletics
+2015,1374,272,37,130,Philadelphia Phillies
+2015,1462,292,27,140,Pittsburgh Pirates
+2015,1324,260,36,148,San Diego Padres
+2015,1379,262,22,198,Seattle Mariners
+2015,1486,288,39,136,San Francisco Giants
+2015,1386,288,39,137,St. Louis Cardinals
+2015,1383,278,32,167,Tampa Bay Rays
+2015,1419,279,32,172,Texas Rangers
+2015,1480,308,17,232,Toronto Blue Jays
+2015,1363,265,13,177,Washington Nationals
+2016,1479,285,56,190,Arizona Diamondbacks
+2016,1404,295,27,122,Atlanta Braves
+2016,1413,265,6,253,Baltimore Orioles
+2016,1598,343,25,208,Boston Red Sox
+2016,1428,277,33,168,Chicago White Sox
+2016,1409,293,30,199,Chicago Cubs
+2016,1403,277,33,164,Cincinnati Reds
+2016,1435,308,29,185,Cleveland Indians
+2016,1544,318,47,204,Colorado Rockies
+2016,1476,252,30,211,Detroit Tigers
+2016,1367,291,29,198,Houston Astros
+2016,1450,264,33,147,Kansas City Royals
+2016,1410,279,20,156,Los Angeles Angels
+2016,1376,272,21,189,Los Angeles Dodgers
+2016,1460,259,42,128,Miami Marlins
+2016,1299,249,19,194,Milwaukee Brewers
+2016,1409,288,35,200,Minnesota Twins
+2016,1378,245,20,183,New York Yankees
+2016,1342,240,19,218,New York Mets
+2016,1352,270,21,169,Oakland Athletics
+2016,1305,231,35,161,Philadelphia Phillies
+2016,1426,277,32,153,Pittsburgh Pirates
+2016,1275,257,26,177,San Diego Padres
+2016,1446,251,17,223,Seattle Mariners
+2016,1437,280,54,130,San Francisco Giants
+2016,1415,299,32,225,St. Louis Cardinals
+2016,1333,288,32,216,Tampa Bay Rays
+2016,1446,257,23,215,Texas Rangers
+2016,1358,276,18,221,Toronto Blue Jays
+2016,1403,268,29,203,Washington Nationals
+2017,1405,314,39,220,Arizona Diamondbacks
+2017,1467,289,26,165,Atlanta Braves
+2017,1469,269,12,232,Baltimore Orioles
+2017,1461,302,19,168,Boston Red Sox
+2017,1412,256,37,186,Chicago White Sox
+2017,1402,274,29,223,Chicago Cubs
+2017,1390,249,38,219,Cincinnati Reds
+2017,1449,333,29,212,Cleveland Indians
+2017,1510,293,38,192,Colorado Rockies
+2017,1435,289,35,187,Detroit Tigers
+2017,1581,346,20,238,Houston Astros
+2017,1436,260,24,193,Kansas City Royals
+2017,1314,251,14,186,Los Angeles Angels
+2017,1347,312,20,221,Los Angeles Dodgers
+2017,1497,271,31,194,Miami Marlins
+2017,1363,267,22,224,Milwaukee Brewers
+2017,1444,286,31,206,Minnesota Twins
+2017,1463,266,23,241,New York Yankees
+2017,1379,286,28,224,New York Mets
+2017,1344,305,15,234,Oakland Athletics
+2017,1382,287,36,174,Philadelphia Phillies
+2017,1331,249,36,151,Pittsburgh Pirates
+2017,1251,227,31,189,San Diego Padres
+2017,1436,281,17,200,Seattle Mariners
+2017,1382,290,28,128,San Francisco Giants
+2017,1402,284,28,196,St. Louis Cardinals
+2017,1340,226,32,228,Tampa Bay Rays
+2017,1326,255,21,237,Texas Rangers
+2017,1320,269,5,222,Toronto Blue Jays
+2017,1477,311,31,215,Washington Nationals
+2018,1283,259,50,176,Arizona Diamondbacks
+2018,1433,314,29,175,Atlanta Braves
+2018,1317,242,15,188,Baltimore Orioles
+2018,1509,355,31,208,Boston Red Sox
+2018,1332,259,40,182,Chicago White Sox
+2018,1453,286,34,167,Chicago Cubs
+2018,1404,251,25,172,Cincinnati Reds
+2018,1447,297,19,216,Cleveland Indians
+2018,1418,280,42,210,Colorado Rockies
+2018,1326,284,35,135,Detroit Tigers
+2018,1390,278,18,205,Houston Astros
+2018,1350,283,29,155,Kansas City Royals
+2018,1323,249,23,214,Los Angeles Angels
+2018,1394,296,33,235,Los Angeles Dodgers
+2018,1303,222,24,128,Miami Marlins
+2018,1398,252,24,218,Milwaukee Brewers
+2018,1379,317,22,166,Minnesota Twins
+2018,1374,269,23,267,New York Yankees
+2018,1282,265,34,170,New York Mets
+2018,1407,322,20,227,Oakland Athletics
+2018,1270,241,30,186,Philadelphia Phillies
+2018,1381,290,38,157,Pittsburgh Pirates
+2018,1289,250,30,162,San Diego Padres
+2018,1402,256,32,176,Seattle Mariners
+2018,1324,255,30,133,San Francisco Giants
+2018,1369,248,9,205,St. Louis Cardinals
+2018,1415,274,43,150,Tampa Bay Rays
+2018,1308,266,24,194,Texas Rangers
+2018,1336,320,16,217,Toronto Blue Jays
+2018,1402,284,25,191,Washington Nationals
+2019,1419,288,40,220,Arizona Diamondbacks
+2019,1432,277,29,249,Atlanta Braves
+2019,1379,252,25,213,Baltimore Orioles
+2019,1554,345,27,245,Boston Red Sox
+2019,1443,260,20,182,Chicago White Sox
+2019,1378,270,26,256,Chicago Cubs
+2019,1328,235,27,227,Cincinnati Reds
+2019,1354,286,18,223,Cleveland Indians
+2019,1502,323,41,224,Colorado Rockies
+2019,1333,292,41,149,Detroit Tigers
+2019,1538,323,28,288,Houston Astros
+2019,1356,281,40,162,Kansas City Royals
+2019,1368,268,21,220,Los Angeles Angels
+2019,1414,302,20,279,Los Angeles Dodgers
+2019,1326,265,18,146,Miami Marlins
+2019,1366,279,17,250,Milwaukee Brewers
+2019,1547,318,23,307,Minnesota Twins
+2019,1493,290,17,306,New York Yankees
+2019,1445,280,17,242,New York Mets
+2019,1384,292,23,257,Oakland Athletics
+2019,1369,311,26,215,Philadelphia Phillies
+2019,1497,315,38,163,Pittsburgh Pirates
+2019,1281,224,24,219,San Diego Padres
+2019,1305,254,28,239,Seattle Mariners
+2019,1332,300,26,167,San Francisco Giants
+2019,1336,246,24,210,St. Louis Cardinals
+2019,1427,291,29,217,Tampa Bay Rays
+2019,1374,296,24,223,Texas Rangers
+2019,1299,270,21,247,Toronto Blue Jays
+2019,1460,298,27,231,Washington Nationals
