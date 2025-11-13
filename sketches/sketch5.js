@@ -2,13 +2,66 @@
 let data;
 let sortedData = new Map();
 let chosenTeam = 'Seattle Mariners';
-let chosenYear = 2001;
+let chosenYear = 1977;
 let singlePositions = new Map();
 let doublePositions = new Map();
 let triplePositions = new Map();
 let homeRunPositions = new Map();
 let yearSlider;
 let teamDropdown;
+const teamColors = new Map([
+  ["Arizona Diamondbacks",         ["#A6192E", "#010101"]],
+  ["Atlanta Braves",               ["#0C2340", "#CE1141"]],
+  ["Baltimore Orioles",            ["#FB4F14", "#000000"]],
+  ["Baltimore Orioles 1892-1899",  ["#FB4F14", "#000000"]],
+  ["Boston Red Sox",               ["#BD3139", "#0E3386"]],
+  ["Buffalo Bisons",               ["#B9975B", "#010101"]],
+  ["Chicago Cubs",                 ["#0E3386", "#CC3433"]],
+  ["Chicago White Sox",            ["#000000", "#C4CED4"]],
+  ["Cincinnati Reds",              ["#C6011F", "#000000"]],
+  ["Cleveland Indians",          ["#0C2340", "#CF142B"]],
+  ["Cleveland Spiders",            ["#0C2340", "#BA0C2F"]],
+  ["Colorado Rockies",             ["#33006F", "#C4CED4"]],
+  ["Detroit Tigers",               ["#0C2340", "#E46937"]],
+  ["Detroit Wolverines",           ["#C8102E", "#FFFFFF"]],
+  ["Hartford Dark Blues",          ["#00205B", "#C1C6C8"]],
+  ["Houston Astros",               ["#0C2340", "#EB6E1F"]],
+  ["Indianapolis Blues",           ["#003087", "#FFFFFF"]],
+  ["Indianapolis Hoosiers",        ["#0C2340", "#FEDB00"]],
+  ["Kansas City Cowboys",          ["#5D2A2C", "#FFFFFF"]],
+  ["Kansas City Royals",           ["#004687", "#E4AA00"]],
+  ["Los Angeles Angels",           ["#003263", "#BA0021"]],
+  ["Los Angeles Dodgers",          ["#005A9C", "#EF3E42"]],
+  ["Louisville Colonels",          ["#BA0C2F", "#FEDB00"]],
+  ["Louisville Grays",             ["#0C2340", "#9EA2A2"]],
+  ["Los Angeles Angels",           ["#003263", "#BA0021"]],
+  ["Miami Marlins",                ["#00A3E0", "#EF3340"]],
+  ["Milwaukee Brewers",            ["#0A2351", "#FFB81C"]],
+  ["Milwaukee Grays",              ["#010101", "#9EA2A2"]],
+  ["Minnesota Twins",              ["#0C2340", "#C6011F"]],
+  ["New York Mets",                ["#002D72", "#FF5910"]],
+  ["New York Yankees",             ["#0C2340", "#FFFFFF"]],
+  ["New York Mutuals",             ["#0C2340", "#FFFFFF"]],
+  ["Oakland Athletics",            ["#003831", "#EFB21E"]],
+  ["Philadelphia Phillies",         ["#E81828", "#002D72"]],
+  ["Pittsburgh Pirates",           ["#000000", "#FDB827"]],
+  ["Providence Grays",             ["#9EA2A2", "#418FDE"]],
+  ["San Diego Padres",             ["#2F241D", "#B69A4D"]],
+  ["San Francisco Giants",         ["#FD5A1E", "#000000"]],
+  ["Seattle Mariners",             ["#0C2C56", "#005C5C"]],
+  ["St. Louis Cardinals",          ["#CE1141", "#0B2344"]],
+  ["Syracuse Stars",               ["#3F2A56", "#FFFFFF"]],
+  ["Tampa Bay Rays",               ["#092C5C", "#8FBCE6"]],
+  ["Texas Rangers",                ["#003278", "#C0111F"]],
+  ["Toronto Blue Jays",            ["#134A8E", "#E8291C"]],
+  ["Troy Trojans",                 ["#2C5234", "#FFFFFF"]],
+  ["Washington Nationals",         ["#AB0003", "#14225A"]],
+  ["Washington Nationals 1886-1889",["#9B5A1A", "#FFFFFF"]],
+  ["Washington Senators 1892-1899", ["#0C2340", "#FFFFFF"]],
+  ["Worcester Ruby Legs",          ["#A50034", "#FFFFFF"]]
+]);
+
+
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
@@ -18,7 +71,6 @@ registerSketch('sk5', function (p) {
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
 
-    console.log(data.getColumnCount());
     sortData();
 
     const teams = Array.from(sortedData.keys()).sort();
@@ -171,7 +223,6 @@ registerSketch('sk5', function (p) {
     if (!sortedData || !sortedData.has(team)) return;
     const teamEntries = sortedData.get(team);
     const stats = teamEntries.get(year);
-    console.log(year);
     const singles = stats[0];
 
     const key = `${team}_${year}`;
@@ -199,7 +250,7 @@ registerSketch('sk5', function (p) {
 
     p.push();
     p.noStroke();
-    p.fill(200, 30, 30, 200); // reddish dots
+    p.fill(teamColors.get(team)[0]);
 
     for (const pos of cache.positions) {
       p.circle(pos.x, pos.y, 3);
@@ -252,7 +303,7 @@ registerSketch('sk5', function (p) {
 
     p.push();
     p.noStroke();
-    p.fill(30, 130, 200, 200); // bluish dots for doubles
+    p.fill(teamColors.get(team)[1]);
 
     for (const pos of cache.positions) {
       p.circle(pos.x, pos.y, 3);
@@ -306,7 +357,7 @@ registerSketch('sk5', function (p) {
 
     p.push();
     p.noStroke();
-    p.fill(100, 220, 100, 200); // greenish dots for triples     
+    p.fill(teamColors.get(team)[0]);    
     
     for (const pos of cache.positions) {
       p.circle(pos.x, pos.y, 3);
@@ -327,14 +378,12 @@ registerSketch('sk5', function (p) {
     if (!cache || cache.count !== homeRuns) {
       const cx = p.windowWidth / 2;
 
-      // outer field arc (existing)
       const cyField = p.windowHeight - 200;
       const rxField = 500;
       const ryField = 500;
 
-      // bleachers arc (new outer ring)
-      const rxBleachers = 600; // 1200 / 2
-      const ryBleachers = 600; // 1200 / 2
+      const rxBleachers = 600;
+      const ryBleachers = 600;
 
       const startA = p.PI + 0.75;
       const endA = p.PI + 2.4;
@@ -361,7 +410,7 @@ registerSketch('sk5', function (p) {
 
     p.push();
     p.noStroke();
-    p.fill(220, 180, 30, 200); // goldish dots for home runs
+    p.fill(teamColors.get(team)[1]);
 
     for (const pos of cache.positions) {
       p.circle(pos.x, pos.y, 3);
