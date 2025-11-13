@@ -7,6 +7,7 @@ let singlePositions = new Map();
 let doublePositions = new Map();
 let triplePositions = new Map();
 let homeRunPositions = new Map();
+let yearSlider;
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
@@ -15,9 +16,20 @@ registerSketch('sk5', function (p) {
   
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
-    console.log(data.getColumnCount());
 
+    console.log(data.getColumnCount());
     sortData();
+
+    availableYears = getAvailableYearsForTeam(chosenTeam);
+    yearSlider = p.createSlider(0, availableYears.length - 1, availableYears.indexOf(chosenYear));
+    yearSlider.style('transform', 'rotate(270deg)');
+    yearSlider.style('transform-origin', 'center');
+    yearSlider.style('width', '600px');
+    // position to the right of the field
+    yearSlider.position(p.windowWidth / 2 + 250, p.windowHeight / 2 + 25);
+    yearSlider.input(() => {
+      chosenYear = availableYears[yearSlider.value()];
+    });
   };
   
   p.draw = function () {
@@ -33,6 +45,8 @@ registerSketch('sk5', function (p) {
     p.text(`Year: ${chosenYear}`, p.windowWidth / 2, p.windowHeight / 2 + 410);
     populateSingles(chosenTeam, chosenYear);
     populateDoubles(chosenTeam, chosenYear);
+    populateTriples(chosenTeam, chosenYear);
+    populateHomeRuns(chosenTeam, chosenYear);
   }
   
   // Preload
@@ -41,6 +55,11 @@ registerSketch('sk5', function (p) {
   }
 
   // Setup
+  getAvailableYearsForTeam = function(team) {
+    if (!sortedData.has(team)) return [];
+    return Array.from(sortedData.get(team).keys()).sort((a, b) => a - b);
+  }
+
   sortData = function() {  
     let teamArr = data.getColumn('team_name');
     let yearArr = data.getColumn('year').map(Number);
@@ -67,6 +86,18 @@ registerSketch('sk5', function (p) {
   setupBaseballDiamond = function() {
     p.push();
   
+    p.noStroke();
+    p.fill(120); // bleacher base color
+    p.arc(p.windowWidth / 2, p.windowHeight - 200, 1200, 1200, p.PI + .75, p.PI + 2.4);
+    // add seat-row lines for visual texture
+    p.stroke(90);
+    p.strokeWeight(2);
+    for (let i = 0; i < 8; i++) {
+      const inset = 10 + i * 12;
+      p.noFill();
+      p.arc(p.windowWidth / 2, p.windowHeight - 200, 1200 - inset, 1200 - inset, p.PI + .75, p.PI + 2.4);
+    }
+
     // Outer diamond
     p.fill('green');
     p.stroke('tan');
@@ -106,15 +137,15 @@ registerSketch('sk5', function (p) {
     p.stroke('darkgreen');
     p.strokeWeight(1);
     p.arc(p.windowWidth / 2, p.windowHeight - 215, 750, 770, p.PI + .75, p.PI + 2.4);
-  
+
     p.pop();
   }
 
   populateSingles = function(team, year) {
-    // find stats for team/year in sortedData
     if (!sortedData || !sortedData.has(team)) return;
-    const teamEntries = sortedData.get(team); // array of Map objects
+    const teamEntries = sortedData.get(team);
     const stats = teamEntries.get(year);
+    console.log(year);
     const singles = stats[0];
 
     const key = `${team}_${year}`;
@@ -152,7 +183,6 @@ registerSketch('sk5', function (p) {
   }
 
   populateDoubles = function(team, year) {
-    // ensure data exists for team/year
     if (!sortedData || !sortedData.has(team)) return;
     const teamEntries = sortedData.get(team);
     const stats = teamEntries.get(year);
@@ -162,15 +192,14 @@ registerSketch('sk5', function (p) {
     let cache = doublePositions.get(key);
 
     if (!cache || cache.count !== doubles) {
-      // centers and ellipse radii for the two arcs
       const cx = p.windowWidth / 2;
-      const cyIn = p.windowHeight - 250; // infield center (tan arc)
+      const cyIn = p.windowHeight - 250;
       const rxIn = 250;
       const ryIn = 250;
 
-      const cyMid = p.windowHeight - 215; // darkgreen arc center
-      const rxMid = 375; // 750 / 2
-      const ryMid = 385; // 770 / 2
+      const cyMid = p.windowHeight - 215;
+      const rxMid = 375;
+      const ryMid = 385;
 
       const startA = p.PI + 0.75;
       const endA = p.PI + 2.4;
@@ -179,13 +208,11 @@ registerSketch('sk5', function (p) {
       for (let i = 0; i < doubles; i++) {
         const a = p.random(startA, endA);
 
-        // points on inner and outer ellipse at angle a
         const xi = cx + rxIn * Math.cos(a);
         const yi = cyIn + ryIn * Math.sin(a);
         const xo = cx + rxMid * Math.cos(a);
         const yo = cyMid + ryMid * Math.sin(a);
 
-        // sample t in [0,1] with sqrt for more uniform area distribution
         const t = Math.sqrt(p.random());
         const x = xi + t * (xo - xi);
         const y = yi + t * (yo - yi);
@@ -200,6 +227,116 @@ registerSketch('sk5', function (p) {
     p.push();
     p.noStroke();
     p.fill(30, 130, 200, 200); // bluish dots for doubles
+
+    for (const pos of cache.positions) {
+      p.circle(pos.x, pos.y, 3);
+    }
+
+    p.pop();
+  }
+
+  populateTriples = function(team, year) {
+    if (!sortedData || !sortedData.has(team)) return;
+    const teamEntries = sortedData.get(team);
+    const stats = teamEntries.get(year);
+    const triples = stats[2];
+
+    const key = `${team}_${year}`;
+    let cache = triplePositions.get(key);
+
+    if (!cache || cache.count !== triples) {
+      const cx = p.windowWidth / 2;
+
+      const cyMid = p.windowHeight - 215;
+      const rxMid = 375;
+      const ryMid = 385;
+
+      const cyOut = p.windowHeight - 200;
+      const rxOut = 500;
+      const ryOut = 500;
+
+      const startA = p.PI + 0.75;
+      const endA = p.PI + 2.4;
+
+      const positions = [];
+      for (let i = 0; i < triples; i++) {
+        const a = p.random(startA, endA);
+
+        const xm = cx + rxMid * Math.cos(a);
+        const ym = cyMid + ryMid * Math.sin(a);
+        const xo = cx + rxOut * Math.cos(a);
+        const yo = cyOut + ryOut * Math.sin(a);
+
+        const t = Math.sqrt(p.random());
+        const x = xm + t * (xo - xm);
+        const y = ym + t * (yo - ym);
+
+        positions.push({ x, y });
+      }
+
+      cache = { count: triples, positions };
+      triplePositions.set(key, cache);
+    }
+
+    p.push();
+    p.noStroke();
+    p.fill(100, 220, 100, 200); // greenish dots for triples     
+    
+    for (const pos of cache.positions) {
+      p.circle(pos.x, pos.y, 3);
+    }
+
+    p.pop();
+  }
+
+  populateHomeRuns = function(team, year) {
+    if (!sortedData || !sortedData.has(team)) return;
+    const teamEntries = sortedData.get(team);
+    const stats = teamEntries.get(year);
+    const homeRuns = stats[3];
+
+    const key = `${team}_${year}`;
+    let cache = homeRunPositions.get(key);
+
+    if (!cache || cache.count !== homeRuns) {
+      const cx = p.windowWidth / 2;
+
+      // outer field arc (existing)
+      const cyField = p.windowHeight - 200;
+      const rxField = 500;
+      const ryField = 500;
+
+      // bleachers arc (new outer ring)
+      const rxBleachers = 600; // 1200 / 2
+      const ryBleachers = 600; // 1200 / 2
+
+      const startA = p.PI + 0.75;
+      const endA = p.PI + 2.4;
+
+      const positions = [];
+      for (let i = 0; i < homeRuns; i++) {
+        const a = p.random(startA, endA);
+
+        const xi = cx + rxField * Math.cos(a);
+        const yi = cyField + ryField * Math.sin(a);
+        const xo = cx + rxBleachers * Math.cos(a);
+        const yo = cyField + ryBleachers * Math.sin(a);
+
+        const t = Math.sqrt(p.random());
+        const x = xi + t * (xo - xi);
+        const y = yi + t * (yo - yi);
+
+        positions.push({ x, y });
+      }
+
+      cache = { count: homeRuns, positions };
+      homeRunPositions.set(key, cache);
+    }
+
+    p.push();
+    p.noStroke();
+    p.fill(220, 180, 30, 200); // goldish dots for home runs
+
     for (const pos of cache.positions) {
       p.circle(pos.x, pos.y, 3);
     }
@@ -207,5 +344,11 @@ registerSketch('sk5', function (p) {
     p.pop();
   }
   
-  p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
+  p.windowResized = function () {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+
+    if (yearSlider) {
+      yearSlider.position(p.windowWidth / 2 + 250, p.windowHeight / 2 + 25);
+    }
+  };
 });
