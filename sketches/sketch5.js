@@ -8,6 +8,7 @@ let doublePositions = new Map();
 let triplePositions = new Map();
 let homeRunPositions = new Map();
 let yearSlider;
+let teamDropdown;
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
@@ -20,13 +21,38 @@ registerSketch('sk5', function (p) {
     console.log(data.getColumnCount());
     sortData();
 
+    const teams = Array.from(sortedData.keys()).sort();
+    teamDropdown = p.createSelect();
+    teamDropdown.position(p.windowWidth / 2 - 80, p.windowHeight / 2 + 375); // left of field
+    teamDropdown.style('font-size', '16px');
+    teamDropdown.style('padding', '5px 10px');
+    teamDropdown.option('Select a Team');
+    teams.forEach(team => teamDropdown.option(team));
+    teamDropdown.selected(chosenTeam);
+
+    teamDropdown.changed(() => {
+      chosenTeam = teamDropdown.value();
+      availableYears = getAvailableYearsForTeam(chosenTeam);
+
+      // Update slider range & position
+      yearSlider.remove();
+      yearSlider = p.createSlider(0, availableYears.length - 1, 0);
+      yearSlider.style('transform-origin', 'center');
+      yearSlider.style('width', '600px');
+      yearSlider.position(p.windowWidth / 2 - 300, p.windowHeight / 2 + 480);
+      yearSlider.input(() => {
+        chosenYear = availableYears[yearSlider.value()];
+      });
+
+      // Reset to earliest available year for new team
+      chosenYear = availableYears[0];
+    });
+
     availableYears = getAvailableYearsForTeam(chosenTeam);
     yearSlider = p.createSlider(0, availableYears.length - 1, availableYears.indexOf(chosenYear));
-    yearSlider.style('transform', 'rotate(270deg)');
     yearSlider.style('transform-origin', 'center');
     yearSlider.style('width', '600px');
-    // position to the right of the field
-    yearSlider.position(p.windowWidth / 2 + 250, p.windowHeight / 2 + 25);
+    yearSlider.position(p.windowWidth / 2 - 300, p.windowHeight / 2 + 480);
     yearSlider.input(() => {
       chosenYear = availableYears[yearSlider.value()];
     });
@@ -41,7 +67,7 @@ registerSketch('sk5', function (p) {
 
     setupBaseballDiamond();
 
-    p.text(`Team: ${chosenTeam}`, p.windowWidth / 2, p.windowHeight / 2 + 350);
+    p.text(`Team:`, p.windowWidth / 2 - 155, p.windowHeight / 2 + 350);
     p.text(`Year: ${chosenYear}`, p.windowWidth / 2, p.windowHeight / 2 + 410);
     populateSingles(chosenTeam, chosenYear);
     populateDoubles(chosenTeam, chosenYear);
@@ -348,7 +374,11 @@ registerSketch('sk5', function (p) {
     p.resizeCanvas(p.windowWidth, p.windowHeight);
 
     if (yearSlider) {
-      yearSlider.position(p.windowWidth / 2 + 250, p.windowHeight / 2 + 25);
+      yearSlider.position(p.windowWidth / 2 - 300, p.windowHeight / 2 + 480);
+    }
+
+    if (teamDropdown) {
+      teamDropdown.position(p.windowWidth / 2 - 80, p.windowHeight / 2 + 375);
     }
   };
 });
