@@ -1,8 +1,8 @@
 // Example 2
 let data;
 let sortedData = new Map();
-let chosenTeam = 'Seattle Mariners';
-let chosenYear = 1977;
+let chosenTeam;
+let chosenYear;
 let singlePositions = new Map();
 let doublePositions = new Map();
 let triplePositions = new Map();
@@ -19,7 +19,7 @@ const teamColors = new Map([
   ["Chicago Cubs",                 ["#0E3386", "#CC3433"]],
   ["Chicago White Sox",            ["#000000", "#C4CED4"]],
   ["Cincinnati Reds",              ["#C6011F", "#000000"]],
-  ["Cleveland Indians",          ["#0C2340", "#CF142B"]],
+  ["Cleveland Indians",            ["#0C2340", "#CF142B"]],
   ["Cleveland Spiders",            ["#0C2340", "#BA0C2F"]],
   ["Colorado Rockies",             ["#33006F", "#C4CED4"]],
   ["Detroit Tigers",               ["#0C2340", "#E46937"]],
