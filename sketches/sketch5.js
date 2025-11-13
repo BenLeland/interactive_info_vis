@@ -1,22 +1,72 @@
 // Example 2
 let data;
-let sortedData;
+let sortedData = new Map();
+let chosenTeam = 'Seattle Mariners';
+let chosenYear = 2001;
+let singlePositions = new Map();
+let doublePositions = new Map();
+let triplePositions = new Map();
+let homeRunPositions = new Map();
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
-    data = p.loadTable('/mlb_data.csv', 'csv', 'header');
+    data = p.loadTable('/mlb_data.csv', 'csv', 'header', handleTableLoad);
   };
   
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
-    sortedData = new Map();
-    
     console.log(data.getColumnCount());
-  };
 
+    sortData();
+  };
+  
+  p.draw = function () {
+    p.background(255);
+    
+    p.textAlign(p.CENTER);
+    p.textSize(50);
+    p.text('The Evolution of Power Hitting in the MLB', p.windowWidth / 2, 100);
+
+    setupBaseballDiamond();
+
+    p.text(`Team: ${chosenTeam}`, p.windowWidth / 2, p.windowHeight / 2 + 350);
+    p.text(`Year: ${chosenYear}`, p.windowWidth / 2, p.windowHeight / 2 + 410);
+    populateSingles(chosenTeam, chosenYear);
+    populateDoubles(chosenTeam, chosenYear);
+  }
+  
+  // Preload
+  handleTableLoad = function(table) {
+    console.log('Table loaded with ' + table.getRowCount() + ' rows and ' + table.getColumnCount() + ' columns.');
+  }
+
+  // Setup
+  sortData = function() {  
+    let teamArr = data.getColumn('team_name');
+    let yearArr = data.getColumn('year').map(Number);
+    let hitsArr = data.getColumn('hits').map(Number);
+    let doublesArr = data.getColumn('doubles').map(Number);
+    let triplesArr = data.getColumn('triples').map(Number);
+    let homeRunsArr = data.getColumn('homeruns').map(Number);
+    
+    for (let i = 0; i < data.getRowCount(); i++) {
+      let singles = hitsArr[i] - doublesArr[i] - triplesArr[i] - homeRunsArr[i];
+      let teamStats = [singles, doublesArr[i], triplesArr[i], homeRunsArr[i]];
+      let team = teamArr[i];
+      let year = yearArr[i];
+      
+      if (sortedData.has(team)) {
+        sortedData.get(team).set(year, teamStats);
+      } else {
+        sortedData.set(team, new Map([[year, teamStats]]));
+      }
+    }
+  }
+  
+  // Draw
   setupBaseballDiamond = function() {
     p.push();
-
+  
     // Outer diamond
     p.fill('green');
     p.stroke('tan');
@@ -24,60 +74,138 @@ registerSketch('sk5', function (p) {
     p.arc(p.windowWidth / 2, p.windowHeight - 200, 1000, 1000, p.PI + .75, p.PI + 2.4);
     p.line(p.windowWidth / 2, p.windowHeight - 200, p.windowWidth / 2 - 365, p.windowHeight - 540);
     p.line(p.windowWidth / 2, p.windowHeight - 200, p.windowWidth / 2 + 370, p.windowHeight - 535);
-
-    // Inner diamond
+  
+    // Infield
     p.fill('tan');
     p.noStroke();
     p.arc(p.windowWidth / 2, p.windowHeight - 250, 500, 500, p.PI + .75, p.PI + 2.4);
-
+  
     // Home plate
     p.circle(p.windowWidth / 2, p.windowHeight - 270, 40);
     p.fill(255);
     p.triangle(p.windowWidth / 2 - 10, p.windowHeight - 270, p.windowWidth / 2 + 10, p.windowHeight - 270, p.windowWidth / 2, p.windowHeight - 260);
     p.rect(p.windowWidth / 2 - 10, p.windowHeight - 275, 20, 5);
-
+  
     // Pitcher's mound
     p.fill('green');
     p.circle(p.windowWidth / 2, p.windowHeight - 380, 60);
     p.fill(255);
     p.rect(p.windowWidth / 2 - 7.5, p.windowHeight - 380, 15, 5);
-
+  
     // Second base
     p.rect(p.windowWidth / 2 - 5, p.windowHeight - 475, 10, 10);
-
+  
     // First base
     p.rect(p.windowWidth / 2 + 115, p.windowHeight - 385, 10, 10);
-
+  
     // Third base
     p.rect(p.windowWidth / 2 - 115, p.windowHeight - 385, 10, 10);
+  
+    // Add hit type labels
+    p.noFill();
+    p.stroke('darkgreen');
+    p.strokeWeight(1);
+    p.arc(p.windowWidth / 2, p.windowHeight - 215, 750, 770, p.PI + .75, p.PI + 2.4);
+  
+    p.pop();
+  }
+
+  populateSingles = function(team, year) {
+    // find stats for team/year in sortedData
+    if (!sortedData || !sortedData.has(team)) return;
+    const teamEntries = sortedData.get(team); // array of Map objects
+    const stats = teamEntries.get(year);
+    const singles = stats[0];
+
+    const key = `${team}_${year}`;
+    let cache = singlePositions.get(key);
+
+    if (!cache || cache.count !== singles) {
+      const cx = p.windowWidth / 2;
+      const cy = p.windowHeight - 250;
+      const rx = 250;
+      const ry = 250;
+      const startA = p.PI + 0.75;
+      const endA = p.PI + 2.4;
+
+      const positions = [];
+      for (let i = 0; i < singles; i++) {
+        const a = p.random(startA, endA);
+        const r = Math.sqrt(p.random());
+        const x = cx + r * rx * Math.cos(a);
+        const y = cy + r * ry * Math.sin(a);
+        positions.push({ x, y });
+      }
+      cache = { count: singles, positions };
+      singlePositions.set(key, cache);
+    }
+
+    p.push();
+    p.noStroke();
+    p.fill(200, 30, 30, 200); // reddish dots
+
+    for (const pos of cache.positions) {
+      p.circle(pos.x, pos.y, 3);
+    }
 
     p.pop();
   }
 
-  // sortData = function() {  
-  //   let teamArr = data.getColumn('team_name');
-  //   let yearArr = data.getColumn('year');
-  //   let doublesArr = data.getColumn('doubles');
-  //   let triplesArr = data.getColumn('triples');
-  //   let homeRunsArr = data.getColumn('homeruns');
+  populateDoubles = function(team, year) {
+    // ensure data exists for team/year
+    if (!sortedData || !sortedData.has(team)) return;
+    const teamEntries = sortedData.get(team);
+    const stats = teamEntries.get(year);
+    const doubles = stats[1];
 
-  //   for (let i = 0; i < data.getRowCount(); i++) {
-  //     let singles = data.getColumn('hits')[i] - doublesArr[i] - triplesArr[i] - homeRunsArr[i];
-  //     let teamStats = [singles, doublesArr[i], triplesArr[i], homeRunsArr[i]];
+    const key = `${team}_${year}`;
+    let cache = doublePositions.get(key);
 
-  //     if (!sortedData.has(teamArr[i])) {
-  //       sortedData.set(teamArr[i], sortedData.get(teamArr[i]).push(new Map([yearArr[i], teamStats])));
-  //     } else {
-  //       sortedData.set(teamArr[i], [new Map([yearArr[i], teamStats])]);
-  //     }
-  //   }
-  // }
+    if (!cache || cache.count !== doubles) {
+      // centers and ellipse radii for the two arcs
+      const cx = p.windowWidth / 2;
+      const cyIn = p.windowHeight - 250; // infield center (tan arc)
+      const rxIn = 250;
+      const ryIn = 250;
 
-  p.draw = function () {
-    p.background(255);
+      const cyMid = p.windowHeight - 215; // darkgreen arc center
+      const rxMid = 375; // 750 / 2
+      const ryMid = 385; // 770 / 2
 
-    setupBaseballDiamond();
+      const startA = p.PI + 0.75;
+      const endA = p.PI + 2.4;
+
+      const positions = [];
+      for (let i = 0; i < doubles; i++) {
+        const a = p.random(startA, endA);
+
+        // points on inner and outer ellipse at angle a
+        const xi = cx + rxIn * Math.cos(a);
+        const yi = cyIn + ryIn * Math.sin(a);
+        const xo = cx + rxMid * Math.cos(a);
+        const yo = cyMid + ryMid * Math.sin(a);
+
+        // sample t in [0,1] with sqrt for more uniform area distribution
+        const t = Math.sqrt(p.random());
+        const x = xi + t * (xo - xi);
+        const y = yi + t * (yo - yi);
+
+        positions.push({ x, y });
+      }
+
+      cache = { count: doubles, positions };
+      doublePositions.set(key, cache);
+    }
+
+    p.push();
+    p.noStroke();
+    p.fill(30, 130, 200, 200); // bluish dots for doubles
+    for (const pos of cache.positions) {
+      p.circle(pos.x, pos.y, 3);
+    }
+
+    p.pop();
   }
-
+  
   p.windowResized = function () { p.resizeCanvas(p.windowWidth, p.windowHeight); };
 });
