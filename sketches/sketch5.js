@@ -65,7 +65,7 @@ const teamColors = new Map([
 
 registerSketch('sk5', function (p) {
   p.preload = function() {
-    data = p.loadTable('/mlb_data.csv', 'csv', 'header', handleTableLoad);
+    data = p.loadTable('mlb_data.csv', 'csv', 'header', handleTableLoad);
   };
   
   p.setup = function() {
